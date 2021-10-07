@@ -1,0 +1,69 @@
+head {
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Lato:ital@0;1&display=swap" rel="stylesheet">
+}
+
+body {
+    margin-top: 0px;
+    font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
+    margin-left:auto;
+    margin-right: auto;
+    background-color:snow;
+}
+
+p {
+    color:lightslategrey;
+    font-size: 18px;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+li {
+    font-weight: bold;
+    line-height: 1.5;
+    
+}
+
+figcaption {
+    font-style: italic;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5,
+h6,
+{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
+}
+
+.index {
+    background-color:pink;
+    color: snow;
+    width: 450px;
+    text-align: center;
+    border: 10px groove;
+    outline: 10 px solid grey;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.index img {
+    width: 100%;
+}
+
+footer {
+    50px;
+}
