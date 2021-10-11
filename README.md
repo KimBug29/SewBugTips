@@ -18,7 +18,7 @@ Hi 👋, I'm Kim Wolf - A novice learning how to become a frontend developer
 
 📫 How to reach me kim41051@yahoo.com or SewBug66@yahoo.com
 
-👨‍💻 All of my projects are available at (insert link here - still to be determined where to host the link)
+👨‍💻 All of my projects are available at https://github.com/KimBug29/SewBugTips.git
 
 📄 Know about my experiences (insert link to my resume here - still to be determined where to host the file)
   
