@@ -1,12 +1,3 @@
-Requirements
-1) Two or more media queries - one for desktop and one for mobile or tablet
-2) Project uploaded to GitHub, minimum of 5 commits
-3) Includes README file
-
-
-
-
-
 
 Landing page
 
@@ -18,6 +9,13 @@ Interested in learning terminolgy?
 Perhaps you are searching for resources. 
 Whatever your interests, I'm certain you've reached the right place on SewBugTips! 
 Sew, let's get started!
+
+Looking for a new hobby? 
+Do you have an interest in sewing? 
+Unsure of sewing terminology? 
+You've reached the right place! 
+Sew Bug Tips is a site which provides SEWING 101 information with images, fabric terminology, reference links and sew much more!
+
 
 
 - Header
