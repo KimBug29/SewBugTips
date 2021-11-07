@@ -3,7 +3,7 @@ Looking for a new hobby? Do you have an interest in sewing? Unsure of sewing ter
 
 While learning how to code (HTML, CSS and JavaScript) I was tasked with creating a project to demonstrate my coding skills. I choose to create a site focused on my hobby - sewing! This site is intended to help anyone interested in sewing, but may feel a little intimated by the jargon.
 
-Sew Bug Tips Version 1.0 10/16/2021
+Sew Bug Tips Version 1.0 11/6/2021
 
 
 Hi 👋, I'm Kim Wolf - A novice coder learning how to become a frontend developer
@@ -18,12 +18,10 @@ Hi 👋, I'm Kim Wolf - A novice coder learning how to become a frontend develop
 
 👨‍💻 My current project is available at https://github.com/KimBug29/SewBugTips.git
 
-📄 Know about my experiences (insert link to my resume here - determin file location)
+📄 Know about my experiences (insert link to my resume here - determine file location)
   
--------------------
-GENERAL USAGE NOTES
-The website is built using HTML, CSS and JavaScript. 
-  Version 1.0 is a single page responsive design site which includes text, images, media queries, and JavaScript. 
+
+
 ---------------------------------------------------------------------------------------
 
 Contact information regarding this site: 
