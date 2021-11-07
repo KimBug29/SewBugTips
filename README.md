@@ -14,17 +14,24 @@ Hi 👋, I'm Kim Wolf - A novice coder learning how to become a frontend develop
 
 💬 Ask me about quilting! Did I mention I love to sew? 
 
-📫 How to reach me: kim41051@yahoo.com or SewBug66@yahoo.com
+📫 How to reach me: SewBug66@yahoo.com
 
 👨‍💻 My current project is available at https://github.com/KimBug29/SewBugTips.git
 
 📄 Know about my experiences (insert link to my resume here - determine file location)
-  
 
-
+GENERAL USAGE NOTES
+The site is built using HTML5, CSS and JavaScript. 
+  Version 1.0 is a responsive design site which includes the following:
+  1) Three media queries, including sizes for mobile, tablet and desktop
+  2) A navigation menu that expands and collapses properly at desktop and mobile sizes
+  3) Flexbox to organize content areas based on mobile or desktop views
+  4) A Contact Us form, with at least one validation field
+  5) Allow the user to click or drag an image onto the site
 ---------------------------------------------------------------------------------------
 
 Contact information regarding this site: 
+  Developer: Kim Wolf
   Voice: 859-802-8077 
   Email: SewBug66@yahoo.com
 
