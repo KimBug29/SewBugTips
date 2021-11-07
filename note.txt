@@ -1,0 +1,26 @@
+Requirements
+1) Two or more media queries - one for desktop and one for mobile or tablet
+2) Project uploaded to GitHub, minimum of 5 commits
+3) Includes README file
+
+
+
+
+
+
+Landing page
+
+Welcome to Sew Bug Tips! 
+
+A site created for crafters of all ages and skills. 
+Do you have have questions about sewing and quilting? 
+Interested in learning terminolgy? 
+Perhaps you are searching for resources. 
+Whatever your interests, I'm certain you've reached the right place on SewBugTips! 
+Sew, let's get started!
+
+
+- Header
+- Site logo
+- Body (main)
+- Footer
