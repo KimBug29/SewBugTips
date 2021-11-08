@@ -3,26 +3,61 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Lato:ital@0;1&display=swap" rel="stylesheet">
     margin-top: 0px;
-    title: {2em;
-
+    title: 2em;
     }
      
-navigation {
-    display: flex;
-    background-color: darkviolet;
-    position: fixed; 
-    }
- 
-body {
-    margin-top: 0px;
-    font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
-    margin-left:auto;
-    margin-right: auto;
-    color:lightslategrey;
-    font-size: 20px;
-    font-family: Tahoma, Verdana, Arial, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+ul, nav {
+    list style: none;
+    display: flex;
+}
+ 
+body {
+    
+    font: normal;
+    font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
+    color #555;
+    text-align:center;
+    margin-top: 0px;
+    margin-left:auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    opacity: 0.9;
+
+}
+
+a:hover{
+    opacity: 1;
+
+}
+
+.round {
+    border: 6px solid #f321b4;
+    border-radius: 50%;
+}
+
+section {
+    background-color: #fff;
+    padding: 125px 100px;
+}
+
+section p {
+    text-align: center;
+    margin-bottom: 35px;
+    padding: 0 20px;
+    line-height: 2;
+}
 
 li {
     font-weight: bold;
@@ -31,13 +66,9 @@ li {
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
-    
 }
 
-h1, 
-h2, 
-h3, 
-{
+h1, h2, h3 {
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
