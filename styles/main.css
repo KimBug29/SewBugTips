@@ -1,4 +1,3 @@
- <!--ADDING FONTS TO SITE-->
  head {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,7 +7,6 @@
 
     }
      
-<!--STYLE NAVIGATION-->
 navigation {
     display: flex;
     background-color: darkviolet;
