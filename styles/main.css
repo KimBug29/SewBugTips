@@ -5,7 +5,8 @@
     margin-top: 0px;
     title: 2em;
     }
-     
+
+/*RESET BROWSER SETTINGS*/
 *{
     margin: 0;
     padding: 0;
@@ -42,6 +43,7 @@ a:hover{
 
 }
 
+/*ADJUST IMAGE DISPLAY*/
 .round {
     border: 6px solid #f321b4;
     border-radius: 50%;
@@ -58,6 +60,58 @@ section p {
     padding: 0 20px;
     line-height: 2;
 }
+
+/*FABRIC CUTS*/
+section .cuts {
+    background-color:#fff;
+    padding: 125px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*SMART PHONES*/
+@media only screen
+and (min-device-width) : 320px;
+and (min-device-width) : 480px; {
+    body {font-size: 16px;}
+    /*STYLES*/
+}
+
+/*SMART PHONES (LANDSCAPE)*/
+@media only screen
+and (min-device-width) : 321px; {
+    body {font-size: 16px;}
+    /*STYLES*/
+}
+
+/*SMART PHONES (PORTRAIT)*/
+@media only screen
+and (min-device-width) : 320px; {
+    body {font-size: 16px;}
+    /*STYLES*/
+}
+
+/*iPADS*/
+@media only screen
+and (min-device-width) : 768px;
+and (min-device-width) : 1024px; {
+    body {font-size: 18px;}
+    /*STYLES*/
+}
+
+/*DESKTOPS AND LAPTOPS*/
+@media only screen
+and (min-device-width) : 1224px;{
+    /*STYLES*/
+}  
+
+/*LARGE SCREENS*/
+@media only screen
+and (min-device-width) : 1824px;{
+    /*STYLES*/
+}
+
 
 li {
     font-weight: bold;
