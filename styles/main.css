@@ -14,8 +14,10 @@
 }
 
 ul, nav {
-    list style: none;
     display: flex;
+    list-style-type: none;
+    text-align: center;
+
 }
  
 body {
@@ -70,25 +72,37 @@ section .cuts {
     align-items: center;
 }
 
+ul.grid {
+    
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*MEDIA QUERIES FOR SCREEN DISPLAYS*/
 /*SMART PHONES*/
 @media only screen
 and (min-device-width) : 320px;
 and (min-device-width) : 480px; {
-    body {font-size: 16px;}
+    body {font-size: 16px;
+    padding: }
     /*STYLES*/
 }
 
 /*SMART PHONES (LANDSCAPE)*/
 @media only screen
 and (min-device-width) : 321px; {
-    body {font-size: 16px;}
+    body {font-size: 16px;
+    padding: }
     /*STYLES*/
 }
 
 /*SMART PHONES (PORTRAIT)*/
 @media only screen
 and (min-device-width) : 320px; {
-    body {font-size: 16px;}
+    body {font-size: 16px;
+    padding: }
     /*STYLES*/
 }
 
@@ -96,13 +110,16 @@ and (min-device-width) : 320px; {
 @media only screen
 and (min-device-width) : 768px;
 and (min-device-width) : 1024px; {
-    body {font-size: 18px;}
+    body {font-size: 18px;
+    padding: 80px 30px;}
     /*STYLES*/
 }
 
 /*DESKTOPS AND LAPTOPS*/
 @media only screen
-and (min-device-width) : 1224px;{
+and (min-device-width) : 1224px; {
+    body {font-size: 20px;
+    padding: 100px 50px;}
     /*STYLES*/
 }  
 
