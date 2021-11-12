@@ -63,8 +63,8 @@ section p {
     line-height: 2;
 }
 
-/*FABRIC CUTS*/
-section .cuts {
+/*FABRIC PRECUTS*/
+section .precuts {
     background-color:#fff;
     padding: 125px 100px;
     display: flex;
@@ -85,8 +85,9 @@ ul.grid {
 @media only screen
 and (min-device-width) : 320px;
 and (min-device-width) : 480px; {
-    body {font-size: 16px;
-    padding: }
+    {font-size: 16px;
+    padding: 10px;
+    }
     /*STYLES*/
 }
 
@@ -94,7 +95,8 @@ and (min-device-width) : 480px; {
 @media only screen
 and (min-device-width) : 321px; {
     body {font-size: 16px;
-    padding: }
+    padding: 10px 
+    }
     /*STYLES*/
 }
 
@@ -102,7 +104,7 @@ and (min-device-width) : 321px; {
 @media only screen
 and (min-device-width) : 320px; {
     body {font-size: 16px;
-    padding: }
+    padding: 10px;}
     /*STYLES*/
 }
 
@@ -111,7 +113,7 @@ and (min-device-width) : 320px; {
 and (min-device-width) : 768px;
 and (min-device-width) : 1024px; {
     body {font-size: 18px;
-    padding: 80px 30px;}
+    padding: 50px 10px;}
     /*STYLES*/
 }
 
@@ -119,7 +121,7 @@ and (min-device-width) : 1024px; {
 @media only screen
 and (min-device-width) : 1224px; {
     body {font-size: 20px;
-    padding: 100px 50px;}
+    padding: 80px 20px;}
     /*STYLES*/
 }  
 
@@ -146,13 +148,17 @@ h1, h2, h3 {
     font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
 }
 
-
+/*-----------------
+FOOTER
+-------------------*/
 footer {
+    display: flex;
+    flex-direction: column;
     background-color:#a0a0a0;
-    border-top: 2px solid #000;
     color:#fff;
+    border-top: 2px solid #000;
     font-family: Tahoma, Verdana, Arial, sans-serif;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
-         
+    align-items: center;         
 }
