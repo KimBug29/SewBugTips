@@ -13,13 +13,39 @@
     box-sizing: border-box;
 }
 
-ul, nav {
+/*HEADER*/
+.header {
+    padding: 40px;
+    text-align: center;
+    background: #3d2a72;
+    color: white;
+  }
+ 
+  /*NAVIGATION*/
+nav {
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: center; 
+    background-color:#a0a0a0;
+}
+
+ /*HEADER STYLING*/
+h1, h2, h3 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
+}
+
+  /*UNORDERED LISTS*/
+ul {
     display: flex;
     list-style-type: none;
     text-align: center;
-
 }
- 
+
+/*BODY OF PAGE*/
 body {
     
     font: normal;
@@ -32,17 +58,16 @@ body {
     font-size: 20px;
 }
 
+/*PAGE ANCHORS*/
 a {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
     opacity: 0.9;
-
 }
 
 a:hover{
     opacity: 1;
-
 }
 
 /*ADJUST IMAGE DISPLAY*/
@@ -66,7 +91,7 @@ section p {
 /*FABRIC PRECUTS*/
 section .precuts {
     background-color:#fff;
-    padding: 125px 100px;
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,7 +156,6 @@ and (min-device-width) : 1824px;{
     /*STYLES*/
 }
 
-
 li {
     font-weight: bold;
     line-height: 1.5;
@@ -141,16 +165,7 @@ li {
     text-align: center;
 }
 
-h1, h2, h3 {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
-}
-
-/*-----------------
-FOOTER
--------------------*/
+/*FOOTER*/
 footer {
     display: flex;
     flex-direction: column;
@@ -158,7 +173,7 @@ footer {
     color:#fff;
     border-top: 2px solid #000;
     font-family: Tahoma, Verdana, Arial, sans-serif;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
     align-items: center;         
 }
