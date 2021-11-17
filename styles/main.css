@@ -47,6 +47,7 @@ h1, h2, h3 {
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
+    padding: 5px;
     font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
 }
 
@@ -62,6 +63,9 @@ ul {
     text-align: center;
 }
 
+figure img {
+    text-align:center;
+}
 figcaption {
     font-style: italic;
 
@@ -115,7 +119,7 @@ section .precuts {
 }
 
 ul.grid {
-    
+    padding: 10px;
     list-style-type: none;
     width: 100%;
     display: flex;
@@ -196,3 +200,6 @@ footer {
     align-items: center;         
 }
 
+footer a:hover {
+    color:#3300ed;
+    transition: 0.6s;
