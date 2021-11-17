@@ -43,7 +43,7 @@ nav a:hover {
 }
 
  /*HEADER STYLING*/
-h1, h2, h3 {
+ h1, h2, h3 {
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
@@ -51,6 +51,9 @@ h1, h2, h3 {
     font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
 }
 
+h2 {
+ color:#edb200;
+}
 h4 {
     letter-spacing: 2px;
     text-transform: uppercase;
