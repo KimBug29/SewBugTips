@@ -7,13 +7,12 @@
 
 /*HEADER*/
 header.page-header {
-    background: no-repeat left/cover url(/images/sewbug_hero.png);
+    background: no-repeat;
     display: flex;
-    height: 600px;
-    min-width: 500px;
-    align-items: center;    
+    align-items: center;  
+    width: 100%;  
   }
- 
+
   /*NAVIGATION*/
 nav {
     display: flex;
@@ -83,7 +82,7 @@ body {
     margin-left:auto;
     margin-right: auto;
     font-size: 20px;
-    width: 100
+    width: 100%;
 }
 
 /*PAGE ANCHORS*/
@@ -100,7 +99,7 @@ a:hover{
 
 section {
     background-color: #fff;
-    padding: 125px 100px;
+    padding: 100px 100px;
 }
 
 section p {
