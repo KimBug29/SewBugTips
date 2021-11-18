@@ -10,8 +10,7 @@ header.page-header {
     background: no-repeat;
     display: flex;
     align-items: center;  
-    width: 100%;  
-  }
+ }
 
   /*NAVIGATION*/
 nav {
@@ -42,20 +41,20 @@ nav a:hover {
 
  /*HEADER STYLING*/
  h1, h2, h3 {
+    color:#edb200;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
     padding: 5px;
     font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
 }
-h2 {
- color:#edb200;
-}
+
 h4 {
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
 }
+
   /*UNORDERED LISTS*/
 ul {
     display: flex;
@@ -64,7 +63,7 @@ ul {
 }
 
 figure img {
-    text-align:center;
+    text-align: center;
 
 }
 figcaption {
@@ -93,13 +92,13 @@ a {
     opacity: 0.9;
 }
 
-a:hover{
+a:hover {
     opacity: 1;
 }
 
 section {
     background-color: #fff;
-    padding: 100px 100px;
+    padding: 75px 10px 10px 10px;
 }
 
 section p {
@@ -109,10 +108,14 @@ section p {
     line-height: 1.5;
 }
 
+main header img {
+    text-align: center;
+    padding: 5px;
+}
 /*FABRIC PRECUTS*/
 section .precuts {
     background-color:#fff;
-    padding: 50px 20px;
+    padding: 10px 20px;
     display: flex;
     flex-direction: column;
     flex-flow: row-wrap;
@@ -143,7 +146,7 @@ li {
 and (min-device-width:320px)
 and (min-device-width:480px) {
     body {font-size: 16px;
-    padding: 10px;
+    padding: 5px;
     }
     /*STYLES*/
 }
@@ -152,7 +155,7 @@ and (min-device-width:480px) {
 @media only screen
 and (min-device-width:321px) {
     body {font-size: 16px;
-    padding: 10px 
+    padding: 5px 
     }
     /*STYLES*/
 }
@@ -161,7 +164,7 @@ and (min-device-width:321px) {
 @media only screen
 and (min-device-width:320px) {
     body {font-size: 16px;
-    padding: 10px;}
+    padding: 5px;}
     /*STYLES*/
 }
 
@@ -170,7 +173,7 @@ and (min-device-width:320px) {
 and (min-device-width:768px)
 and (min-device-width:1024px) {
     body {font-size: 18px;
-    padding: 50px 10px;}
+    padding: 5px 10px;}
     /*STYLES*/
 }
 
@@ -178,7 +181,7 @@ and (min-device-width:1024px) {
 @media only screen
 and (min-device-width:1224px) {
     body {font-size: 20px;
-    padding: 80px 20px;}
+    padding: 5px 20px;}
     /*STYLES*/
 }  
 
