@@ -5,14 +5,7 @@
     box-sizing: border-box;
 }
 
-/*HEADER*/
-header.page-header {
-    background: no-repeat;
-    display: flex;
-    align-items: center;  
- }
-
-  /*NAVIGATION*/
+/*NAVIGATION*/
 nav {
     display: flex;
     list-style-type: none;
