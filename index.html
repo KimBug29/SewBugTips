@@ -32,42 +32,38 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#precuts">Fabric PreCuts</a></li>
+                <li><a href="#share">Share</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </nav>
         </header>  
     <section id="home">
             <header id="main-header">
                 <h1>Welcome to Sew Bug Tips!</h1> <br>
-                <img src="images/sewbugtips_hero.png"alt="Sew Bug Tips image" title="Sew Bug Tips">
-                <p>A site created for crafters of all ages and skills. 
-                    Are you looking for sewing tips? Or maybe a new hobby?
+                <img src="images/sewbugtips_hero.png"alt="Sew Bug Tips logo" title="SewBugTips logo">
+                <p> Are you looking for sewing tips? Or maybe a new hobby?
                     Do you have an interest in sewing, yet unsure of sewing terminology?
-                    Perhaps you are searching for resources. 
                     Whatever your interests, I am certain you have reached the right place on <b>SewBugTips</b>! 
-                    Sew, let's get started!
+                    A site created for crafters of all ages and skills. Sew, let's get started!
                 </p>  
-                <p>To begin, the top navigation bar provides quick links to various site sections. 
-                    Or simply scroll or swipe to view site content.
-                </p> 
+                
         </section>
     <hr>
     <section id="about">
         <h2>About Me</h2><br>
             <p>Please allow me to introduce myself. My name is Kim Wolf and I am learning to code HTML, CSS and JavaScript. I enjoy sewing and quilt piecing. 
             <br>For my Code Kentucky Project, I decided to combine the two talents to create an informative sewing tips site.<br>
-            When it came time to name my coding project site, I incorporated another favorite - my Beetle Bug.<br> That is how the site name <b>Sew Bug Tips</b> was created.
+            When it came time to name my coding project site, I incorporated another favorite - my Beetle Bug.<br> That is how <b>SewBugTips</b> was created.
             </p>
             <figure>
                 <img src="images/my_bug.jpg" alt="My Volkswagon Beetle" title="My Volkswagon Beetle."/>
                 <figcaption>My Volkswagon Beetle</figcaption>                
             </figure>
-            <br>
     </section>
     <hr>
     <section id="precuts">
-        <h2>Fabric PreCuts</h2>
+        <h2>Fabric PreCuts</h2><br>
         <p>Precuts samplers are bundles of coordinating quilting fabrics, cut to standardized sizes, and sold as a single unit. <br>
-            They are easy to use and also a great way to sample an entire fabric collection. 
+            They are easy to use and also a great way to sample an entire fabric collection. PreCut names can be confusing, check out some examples with their definition.
         </p>
 
             <ul class="grid">
@@ -94,17 +90,54 @@
             </ul>
     </section>
     <hr>
+    <section id="share">
+        <h2>Share your images</h2><br>
+        <p>I enjoy viewing sewing projects. Would you like to share an image of your work? If so, kindly upload a file.</p>
+
+        <form action="results.html" method="GET" enctype="multipart/form-data">
+            <div>
+                <label for="file">File: </label>
+                </label>
+                <input id="file" type="file" name="file">
+            </div>
+            <button type="submit">Upload my file</button>
+        </form>
+        <br>
+    </section>
+    <hr>
     <section id="contact">
-    <p> Enter JavaScript form here</p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+        <h2>Contact Us</h2><br>
+        <p>Have a question? Complete the form and we will contact you!</p>
+        <form action="results.html" method="GET">
+            <div>
+                <label for="name">Name: </label>
+                </label>
+                <input type="text" name="name" id="name" placeholder="Enter first and last name">
+            </div>
+            <div>
+                <label for="date">Birthdate: </label>
+                </label>
+                <input type="date" name="date" id="date">
+            </div> 
+            <div>
+                <label for="email">Email: </label>
+                </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="mailingList">Opt in to mailing list: </label>
+                <input type="checkbox" name="mailingList" id="mailingList">
+                </label>
+            </div>
+            <div>
+                <label for="question">Question: </label>
+                <textarea id="question" name="question"></textarea>
+            </div>
+            <button type="reset">Reset</button>
+            <button type="submit">Ask a question</button>
+        </form>
+        <br>
+        
 
     </section>
     
