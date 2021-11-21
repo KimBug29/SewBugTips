@@ -1,0 +1,22 @@
+/*RESET BROWSER SETTINGS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*STYLE THE PAGE*/
+body {
+    
+    font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
+    color:rgb(177, 17, 17);
+    text-align:left;
+    margin-top: 25px;
+    margin-left:20 px;
+    margin-right: auto;
+    padding-left: 5%;
+    font-size: 20px;
+    width: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
