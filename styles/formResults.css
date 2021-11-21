@@ -1,13 +1,12 @@
 /*RESET BROWSER SETTINGS*/
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 
 /*STYLE THE PAGE*/
-body {
-    
+/*body {
     font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
     color:rgb(177, 17, 17);
     text-align:left;
@@ -19,4 +18,4 @@ body {
     width: 100%;
     letter-spacing: 2px;
     text-transform: uppercase;
-}
+}*/

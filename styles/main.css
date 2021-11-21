@@ -79,6 +79,19 @@ body {
     width: 100%;
 }
 
+section form .results {
+    
+    color:rgb(78, 17, 177);
+    text-align:left;
+    margin-top: 25px;
+    margin-left:20 px;
+    margin-right: auto;
+    padding-left: 5%;
+    font-size: 14px;
+    width: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 /*PAGE ANCHORS*/
 a {
     text-decoration: none;
@@ -104,9 +117,11 @@ section p {
 }
 
 main header img {
+    display: flex;
     text-align: center;
     padding: 5px;
 }
+
 /*FABRIC PRECUTS*/
 section .precuts {
     background-color:#fff;
@@ -134,6 +149,84 @@ li {
     text-decoration: none;
     text-align: center;
 }
+
+
+/*FORM*/
+form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    }
+    
+    /*COMMENT OUT THIS CSS FOR NOW
+        form li + li {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }*/
+    
+    label {
+        display: inline-block;
+        width: 180px;
+        text-align: right;
+    }
+    
+    input,
+    textarea {
+        font: 1em;
+        width:50%;
+        box-sizing: border-box;
+        border: 1px solid #999;
+        padding-left: 1%;
+    }
+    
+    /*COMMENT OUT THIS CSS FOR NOW
+    input:focus,
+    textarea:focus {
+        border-color: #000;
+        padding-left: 1%;
+    }*/
+    
+    textarea {
+        vertical-align: top;
+        height: 5em;
+        padding-left: 1%;
+    }
+    
+    
+    button {
+        margin: 5px 5px;
+        padding: 2%;
+        background-color: #050505;
+        color:#fff;
+        border: none;
+        border-radius: 10px;
+        transition-duration: 0.4s;
+    }
+    
+    button:hover {
+    background-color: #edb200;
+    }
+    
+    /*FOOTER*/
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color:#a0a0a0;
+        color:#fff;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+        padding: 5px 0;
+        text-align: center;
+        align-items: center;    
+        width: 100%;    
+        margin-bottom: auto;
+    }
+    
+    footer a:hover {
+        color:#3300ed;
+        transition: 0.4s;
+    }
 
 /*MEDIA QUERIES FOR SCREEN DISPLAYS*/
 /*SMART PHONES*/
@@ -184,78 +277,4 @@ and (min-device-width:1224px) {
 @media only screen
 and (min-device-width:1824px) {
     /*STYLES*/
-}
-
-/*FORM*/
-form {
-margin: 0 auto;
-width: 50%;
-padding: 20px;
-border: 1px solid #CCC;
-border-radius: 10px;
-}
-
-form li + li {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-label {
-    display: inline-block;
-    width: 180px;
-    text-align: right;
-}
-
-input,
-textarea {
-    font: 1em;
-    width:50%;
-    box-sizing: border-box;
-    border: 1px solid #999;
-    padding-left: 2%;
-}
-
-input:focus,
-textarea:focus {
-    border-color: #000;
-    padding-left: 2%;
-}
-
-textarea {
-    vertical-align: top;
-    height: 5em;
-    padding-left: 2%;
-}
-
-button {
-    margin: 5px 5px;
-    padding: 2%;
-    background-color: #050505;
-    color:#fff;
-    border: none;
-    border-radius: 10px;
-    transition-duration: 0.4s;
-}
-
-button:hover {
-background-color: #edb200;
-}
-
-/*FOOTER*/
-footer {
-    display: flex;
-    flex-direction: column;
-    background-color:#a0a0a0;
-    color:#fff;
-    font-family: Tahoma, Verdana, Arial, sans-serif;
-    padding: 5px 0;
-    text-align: center;
-    align-items: center;    
-    width: 100%;    
-    margin-bottom: auto;
-}
-
-footer a:hover {
-    color:#3300ed;
-    transition: 0.4s;
 }
