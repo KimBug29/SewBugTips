@@ -217,16 +217,19 @@ textarea {
     width:50%;
     box-sizing: border-box;
     border: 1px solid #999;
+    padding-left: 2%;
 }
 
 input:focus,
 textarea:focus {
     border-color: #000;
+    padding-left: 2%;
 }
 
 textarea {
     vertical-align: top;
     height: 5em;
+    padding-left: 2%;
 }
 
 .button {
@@ -235,7 +238,9 @@ textarea {
 
 button {
     margin: 5px 5px;
+    padding: 2%;
 }
+
 
 
 /*FOOTER*/
