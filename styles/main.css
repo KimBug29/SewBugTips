@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
 }
 
 /*NAVIGATION*/
@@ -16,7 +17,6 @@ nav {
     width: 100%;
     top: 0;
     left: 0;
-    
 }
 nav li {
     display:inline-block;
@@ -32,20 +32,19 @@ nav a:hover {
     transition: 0.4s;
 }
 
- /*HEADER STYLING*/
- h1, h2, h3 {
-    color:#edb200;
+/*HEADER STYLING*/
+h1, h2, h3, h4 {
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
+}
+ h1, h2, h3 {
+    color:#edb200;    
     padding: 5px;
-    font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
 }
 
 h4 {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-align: center;
+    color:rebeccapurple;
 }
 
   /*UNORDERED LISTS*/
@@ -57,41 +56,32 @@ ul {
 
 figure img {
     text-align: center;
-    box-shadow: 5px 5px rgb(156, 156, 156);
-    
+    box-shadow: 0 4px 8px 0 rgb(156, 156, 156);     
 }
+
+figure img:hover {
+    transform: scaleX(-1);   
+}
+
 figcaption {
     font-style: italic;
+    margin-top: 5px;
     padding-bottom: 150px;
 
 }
 /*BODY OF PAGE*/
 body {
-    
     font: normal;
-    font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
     color:#000;
     text-align:center;
     margin-top: 0px;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
     font-size: 20px;
     width: 100%;
 }
 
-section form .results {
-    
-    color:rgb(78, 17, 177);
-    text-align:left;
-    margin-top: 25px;
-    margin-left:20 px;
-    margin-right: auto;
-    padding-left: 5%;
-    font-size: 14px;
-    width: 100%;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
+
 /*PAGE ANCHORS*/
 a {
     text-decoration: none;
@@ -116,10 +106,14 @@ section p {
     line-height: 1.5;
 }
 
-main header img {
-    display: flex;
-    text-align: center;
+/*HERO IMAGE*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px;
+    max-width: 60%;
+    height: auto;
 }
 
 /*FABRIC PRECUTS*/
@@ -152,7 +146,7 @@ li {
 
 
 /*FORM*/
-form {
+    form {
     margin: 0 auto;
     width: 50%;
     padding: 20px;
@@ -161,7 +155,7 @@ form {
     }
     
     /*COMMENT OUT THIS CSS FOR NOW
-        form li + li {
+    form li + li {
         margin-top: 10px;
         margin-bottom: 20px;
     }*/
@@ -276,5 +270,7 @@ and (min-device-width:1224px) {
 /*LARGE SCREENS*/
 @media only screen
 and (min-device-width:1824px) {
+    body {font-size: 24px;
+        padding: 10px 25px;}
     /*STYLES*/
 }

@@ -21,9 +21,7 @@
     <script src="https://kit.fontawesome.com/fab5d2891a.js" crossorigin="anonymous"></script>
     <!--ADDING STYLES/CSS TO SITE-->
     <link rel="stylesheet" href="styles/main.css">
-    <!--ADD JAVASCRIPT TO SITE-->
-    <script src="my-js-file.js" defer></script>
-
+    
  
 <body>
     <!--SITE NAVIGATION LINKS-->
@@ -37,16 +35,16 @@
             </nav>
         </header>  
     <section id="home">
-            <header id="main-header">
-                <h1>Welcome to Sew Bug Tips!</h1> <br>
+        <div class="hero">
                 <img src="images/sewbugtips_hero.png"alt="Sew Bug Tips logo" title="SewBugTips logo">
+                <h1>Welcome to Sew Bug Tips!</h1>
                 <p> Are you looking for sewing tips? Or maybe a new hobby?
                     Do you have an interest in sewing, yet unsure of sewing terminology?
                     Whatever your interests, I am certain you have reached the right place on <b>SewBugTips</b>! 
                     A site created for crafters of all ages and skills. Sew, let's get started!
                 </p>  
-                
-        </section>
+        </div>    
+    </section>
     <hr>
     <section id="about">
         <h2>About Me</h2><br>
@@ -108,8 +106,8 @@
         <h2>Contact Us</h2><br>
         <p>Have a question? Complete the form and we will contact you!</p>
 
-        <!--ADD FORM THAT DISPLAYS ON RESULTS PAGE USING JAVASCRIPT-->
-        <form action="results.html" method="get">
+        <!--ADD FORM THAT USES JAVASCRIPT TO DISPLAY INPUTS ON RESULTS PAGE-->
+        <form action="results.html" method="get" autocomplete="on">
             <div>
                 <label for="name">Name: </label>
                 <input type="text" name="Name" id="name" placeholder="Enter first and last name" maxlength="50">
@@ -130,8 +128,8 @@
                 <label for="question">Question: </label>
                 <textarea id="question" name="Question"></textarea>
             </div>
-            <button type="reset">Reset</button>
             <button type="submit">Ask a question</button>
+            <button type="reset">Reset</button>
         </form>
         <br>
         

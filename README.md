@@ -18,16 +18,16 @@ Hi 👋, I'm Kim Wolf - A novice coder learning how to become a frontend develop
 
 👨‍💻 My current project is available at https://github.com/KimBug29/SewBugTips.git
 
-📄 Know about my experiences (insert link to my resume here - determine file location)
+📄 Learn about my experiences (insert link to my resume here - determine file location)
 
 GENERAL USAGE NOTES
 The site is built using HTML5, CSS and JavaScript. 
   Version 1.0 is a responsive design site which includes the following:
-  1) Three media queries, including sizes for mobile, tablet and desktop
-  2) A navigation menu that expands and collapses properly at desktop and mobile sizes
+  1) A minimum of three media queries, including sizes for mobile, tablet and desktop
+  2) A navigation menu that expands and collapses properly at desktop and mobile sizes (still working on this one)
   3) Flexbox to organize content areas based on mobile or desktop views
-  4) A Contact Us form, with at least one validation field
-  5) Allow the user to click or drag an image onto the site
+  4) A Contact Us form, with at least one validation field (email is required field)
+  5) Allow the user to upload an image
 ---------------------------------------------------------------------------------------
 
 Contact information regarding this site: 

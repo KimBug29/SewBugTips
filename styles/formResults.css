@@ -1,21 +1,33 @@
 /*RESET BROWSER SETTINGS*/
-/**{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}*/
+}
 
-/*STYLE THE PAGE*/
-/*body {
+/*STYLE THE RESULTS PAGE*/
+
+h2, body {
     font-family: 'Lato', Tahoma, Verdana, Arial, sans-serif;
-    color:rgb(177, 17, 17);
+    letter-spacing: 2px;
+}
+
+h2 {
+    color:#edb200;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5%;
+}
+
+body {
+    color:seagreen;
     text-align:left;
     margin-top: 25px;
     margin-left:20 px;
     margin-right: auto;
     padding-left: 5%;
-    font-size: 20px;
+    font-size: 1em;
     width: 100%;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}*/
+    
+}
+
