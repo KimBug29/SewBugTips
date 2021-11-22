@@ -26,7 +26,7 @@ The site is built using HTML5, CSS and JavaScript.
   1) A minimum of two media queries, including sizes for mobile, tablet and desktop
   2) Project is specifically named and uploaded in GitHub
   3) A README file with at least one paragraph explaining the project and listing of project requirements included
-  4) CSS feature - CSS grid to organize content
+  4) CSS features - CSS grid to organize content -and- Web Accessibility Compliance Report (in PDF format)
   5) JavaScript feature - Contact Us form, with at least one validation field (email is required field) - with a Results page which allows user to view their submission
   6) One (1) additional item from any list - Form that allows site visitor to upload file - with a Results page that allows user to view their submission
   7) A fourth item (just in case) A navigation menu that expands and collapses properly at desktop and mobile sizes (still working on this one)
