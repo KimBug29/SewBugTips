@@ -19,21 +19,23 @@
     <link rel="icon" type="image/jpg" href="images/bug.jpeg">
     <!--ADDS FONT AWESOME CODE-->
     <script src="https://kit.fontawesome.com/fab5d2891a.js" crossorigin="anonymous"></script>
-    <!--ADDING STYLES/CSS TO SITE-->
+    <!--ADDS STYLES/CSS TO SITE-->
     <link rel="stylesheet" href="styles/main.css">
-    
- 
+    <!--ADDS JAVASCRIPT TO SITE-->
+    <script src="main.js"></script>
+     
 <body>
-    <!--SITE NAVIGATION LINKS-->
-        <header>
-            <nav>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#precuts">Fabric PreCuts</a></li>
-                <li><a href="#share">Share</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </nav>
-        </header>  
+    <!--SITE NAVIGATION BAR-->
+    <header>
+        <nav>
+            <div><a href="#home">Home</a></div>
+            <div><a href="#about">About Me</a></div>
+            <div><a href="#precuts">Fabric PreCuts</a></div>
+            <div><a href="#share">Share</a></div>
+            <div><a href="#contact">Contact Us</a></div>
+        </nav>
+    </header>
+
     <section id="home">
         <div class="hero">
                 <img src="images/sewbugtips_hero.png"alt="Sew Bug Tips logo" title="SewBugTips logo">
@@ -48,7 +50,21 @@
     <hr>
     <section id="about">
         <h2>About Me</h2><br>
-            <p>Please allow me to introduce myself. My name is Kim Wolf and I am learning to code HTML, CSS and JavaScript. I enjoy sewing and quilt piecing. 
+            <p>My name is Kim Wolf and I am learning to code HTML, CSS and JavaScript. <br>I enjoy sewing and quilt piecing. Use the carousel, built with JavaScript, to view some of my sewing project images. 
+                <div class="carousel">
+                    <div class="carousel_image"></div>
+                        <img src="images/irish_change_quilt.jpg" alt="Irish Change quilt" title="Irish Change quilt pattern"/>
+                    </div>
+                    <div class="carousel_image">
+                        <img src="images/sunflowers_scalloped_edge.JPG" alt="Sunflower quilt" title="Sunflower quilt with scalloped edges"/>
+                    </div>
+                    <div class="carousel_image">
+                        <img src="images/purse.jpg" alt="Cross Body purse" title="Cross Body Bag"/>
+                    </div>
+                </div>
+             
+                
+            
             <br>For my Code Kentucky Project, I decided to combine the two talents to create an informative sewing tips site.<br>
             When it was time to name my coding project site, I incorporated another favorite - my Beetle Bug.<br> That is how <b>SewBugTips</b> was created.
             </p>
@@ -56,6 +72,7 @@
                 <img src="images/my_bug.jpg" alt="My Volkswagon Beetle" title="My Volkswagon Beetle."/>
                 <figcaption>My Volkswagon Beetle</figcaption>                
             </figure>
+            <img src="images/purple_notions.jpeg" alt="Sewing notions" title="Sewing notions"/>
     </section>
     <hr>
     <section id="precuts">
@@ -92,12 +109,14 @@
         <h2>Share your images</h2><br>
         <p>I enjoy viewing sewing projects. Would you like to share your work? If so, kindly upload your image.</p>
 
-        <!--ADD FORM THAT DISPLAYS ON RESULTS PAGE USING JAVASCRIPT-->
-        <form action="results.html" method="get" enctype="multipart/form-data">
-            <div>
+        <!--ALLOW SITE VISITOR TO UPLOAD FILE AND MESSAGE WITH JAVASCRIPT-->      
+        <script src="scripts/forms.js"></script>
+        <form id="Share">    
+            <div>    
                 <input id="file" type="file" name="File">
             </div>
-            <button type="submit">Upload</button>
+                /*BEST PRACTICE...I WANT TO ______ - ANSWER THIS STATEMENT FOR THE FORM BUTTON WORDING"*/
+                <button type="submit">Share my image</button>
         </form>
         <br>
     </section>
@@ -106,7 +125,7 @@
         <h2>Contact Us</h2><br>
         <p>Have a question? Complete the form and we will contact you!</p>
 
-        <!--ADD FORM THAT USES JAVASCRIPT TO DISPLAY INPUTS ON RESULTS PAGE-->
+        <!--ADD FORM AND VALIDATE WITH JAVASCRIPT-->
         <form action="results.html" method="get" autocomplete="on">
             <div>
                 <label for="name">Name: </label>
@@ -128,24 +147,22 @@
                 <label for="question">Question: </label>
                 <textarea id="question" name="Question"></textarea>
             </div>
+            /*BEST PRACTICE...I WANT TO ______ - ANSWER THIS STATEMENT FOR THE FORM BUTTON WORDING"*/
             <button type="submit">Ask a question</button>
             <button type="reset">Reset</button>
         </form>
         <br>
-        
-
     </section>
     
-        <footer>
+    <footer>
+            <br>
             <p>Site designed by Kim Wolf</p>
             <ul>
-                <li><a href="https://www.linkedin.com/in/kimberly-wolf-pmp%C2%AE-42816b6b/"><i class="fab fa-linkedin fa-2x"></i></a></li>       
-                <li><a href="https://github.com/KimBug29/SewBugTips.git"><i class="fab fa-github-square fa-2x"></i></a></li>
-            
-
+                <li><a href="https://www.linkedin.com/in/kimberly-wolf-pmp%C2%AE-42816b6b/" target="_blank"><i class="fab fa-linkedin fa-2x"></i> </a></li>       
+                <li><a href="https://github.com/KimBug29/SewBugTips.git" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
             </ul>
-            <p>&copy;2021 Sew Bug Tips, All Rights Reserved.</p>
-            <p id="contact">Contact us at <a href="mailto:SewBug66@yahoo.com?subject=Mail from our Website">SewBug66@yahoo.com</a> </p>
+            <p>Contact us at <a href="mailto:SewBug66@yahoo.com?subject=Mail from our Website">SewBug66@yahoo.com</a> </p>
+            <p>&copy;2021 Sew Bug Tips, All Rights Reserved.</p><br>
         </footer>
 
     </body>
