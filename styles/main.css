@@ -6,12 +6,24 @@
     font-family: Arial, Tahoma, Verdana, sans-serif;
 }
 
- /*BODY OF PAGE*/
+/*
+REFERENCE INFO - RULES FOR FONT SIZING
+10px = 0.625rem
+12px = 0.75rem
+14px = 0.875rem
+16px = 1rem (base)
+18px = 1.125rem
+20px = 1.25rem
+24px = 1.5rem
+30px = 1.875rem
+32px = 2rem
+*/
+
+/*BODY OF PAGE*/
 body {
+    text-align: center;
     color:#000;
-    text-align:center;
     margin-top: 0px;
-    font-size: 20px;
     line-height: 1.5 ;
 }
 
@@ -31,7 +43,6 @@ nav > div {
     text-transform: uppercase;
     text-decoration: none;
 }
-
 
 /*PAGE ANCHORS IN NAV TO SECTIONS*/
 a {
@@ -54,12 +65,9 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
     text-align: center;
 }
- h1, h2, h3 {
+ h1, h2, h3, h4 {
     color:#365a91;    
     padding: 5px;
-}
-h4 {
-    color:rebeccapurple;
 }
 
 /*HORIZONTAL ROW LINE BREAK*/
@@ -73,140 +81,280 @@ hr {
     }
   
 /*HERO IMAGE*/
-img {
-    display: block;
+.hero img {
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
 }
 
 /*SECTIONS - BASED ON NAV*/
 section {
-    background-color: #fff;
-    padding: 75px 10px 10px 10px;
+    padding: 65px 20px 20px 20px;
 }
 section p {
     text-align: center;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 35px;
-}
     
-/*SECTION: PRECUT GRID UNORDERED LISTS*/
-ul {
-    display: flex;
-    list-style-type: none;
-    text-align: center;
 }
 
+/*SECTION: ABOUT ME - BACKGROUND COLOR CHANGE*/
+#about {
+    background-color: #E2E8F0;
+}
+
+/*SECTION: ABOUT ME FLEXBOX*/
+.flex-container-about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: baseline;   
+}
+
+.flex-container-about img {
+    box-shadow: 3px 0 3px 3px  rgb(65, 68, 55);    
+}
+.flex-container-about img:hover {
+    transform: scale(1.25); 
+}
+
+
 /*SECTION: ABOUT ME FIGURE*/
+
 figure img {
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgb(156, 156, 156);     
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+    flex-direction: row;
+    box-shadow: 0 10px 15px 0 rgb(43, 46, 34);     
 }
 figure img:hover {
     transform: scaleX(-1);   
 }
 figcaption {
     font-style: italic;
-    margin-top: 5px;
+    text-align: center;
+    margin-top: 10px;
     padding-bottom: 150px;
 }
 
-/*SECTION: FABRIC PRECUTS*/
+/*SECTION: PRECUT UNORDERED LISTS*/
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+
+/*SECTION: UNORDERED LISTS
+ul {
+    display: grid;
+    grid-gap: 1rem;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 25px;    
+}
+
+/*SECTION: FABRIC PRECUTS
 section .precuts {
-    background-color:#fff;
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
     flex-flow: row-wrap;
-    align-items: center;
+    align-items: center;*/
+
+
+/*SECTION: CONTACT US - BACKGROUND COLOR CHANGE*/
+#contact {
+    background-color: #E2E8F0;
 }
-ul.grid {
-    padding: 10px;
-    list-style-type: none;
+
+/*SECTION: CONTACT US - FORM*/
+
+input, 
+textarea {
+    font-family: Arial, Tahoma, Verdana, sans-serif;
+}
+
+.container {
+    position: relative;
     width: 100%;
+    min-height: 90vh;
+    padding: 2rem;
+    overflow: hidden;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
 }
-/* Original code for li - do not delete li { 
-    color:#797579;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-}*/
 
-/*FORM*/
-form {
-    margin: 0 auto;
-    width: 50%;
-    padding: 20px;
-    border: 1px solid #CCC;
+.form {
+    width: 100%;
+    max-width: 820px;
+    background-color: #fff;
     border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-form {
+    background-color:#365a91;
+    position: relative;
+}
+
+/*SECTION: CONTACT US - FORM - DECORATIVE CIRCLE EFFECTS*/
+.circle {
+    border-radius:50%;
+    background: linear-gradient(135deg, transparent 20%, #0687F7);
+    position: absolute;
 }
     
-/*COMMENT OUT THIS CSS FOR NOW
-    form li + li {
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }*/
-    
-label {
-    display: inline-block;
-    text-align: right;
+.circle.one{
+    width: 130px;
+    height: 130px;
+    top: 130px;
+    right: -40px;
 }
-    
-input,
-textarea {
-    font: 1em;
-    width:50%;
-    box-sizing: border-box;
-    border: 1px solid #999;
-    padding-left: 1%;
-}   
-input:focus,
-    textarea:focus {
-        border-color: #365a91;
-        padding-left: 1%;
-}    
-textarea {
-    vertical-align: top;
-    height: 5em;
-    padding-left: 1%;
-}   
-button {
-    margin: 5px 5px;
-    padding: 2%;
-    background-color: #050505;
-    color:#fff;
-    border: none;
-    border-radius: 10px;
-    transition-duration: 0.4s;
+
+.circle.two{
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    right: 30px;
 }
-button:hover {
+
+
+/*SECTION: CONTACT US - FORM*/
+.contact-form:before{
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
     background-color: #365a91;
+    transform: rotate(45deg);
+    top: 50px;
+    left:-13px;
 }
-    
+
+form{
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+}
+
+.title{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+}
+
+.input-container{
+    position: relative;
+    margin: 1rem 0;
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    border: 2px solid #fafafa;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+textarea.input {
+    padding: 0.8rem 1.2rem;
+    min-height: 150px;
+    border-radius: 22px;
+    resize: none;
+    overflow-y: auto;
+}
+
+.input-container span {
+    color: #fff;
+    display: flex;
+}
+
+/*SECTION: CONTACT US - FORM - BUTTON STYLE*/
+.btn {
+    padding: 0.6rem 1.3rem;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+    font-size: 0.95rem;
+    color: #365a91;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+
+/*SECTION: CONTACT US - FORM - CONTACT INFO*/
+.contact-info h3 {
+    color: #365a91;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-top: 2.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.contact-info p {
+    padding: 50px;
+}
+
+.contact-img {
+    box-shadow: 3px 0 3px 3px  rgb(65, 68, 55); 
+}
+
 /*FOOTER*/
 footer {
     display: flex;
     flex-direction: column;
-    text-align: center;
     background:#365a91;
     width: 100%; 
     line-height: 1.4; 
-}   
-footer li{
-    display: flex;
-    color:black;
+    color:#fff;
+}
+ 
+footer li {
+    color: black;
+    padding: 1rem;
 } 
+
 footer a:hover {
     color:#fff;
     transition: 0.4s;
 }
+
 
 /*SCREEN SIZES PER CODE2CARE.ORG*/
 /*
@@ -228,107 +376,76 @@ Desktop fonts should be between 16 - 20px
 
 /*MEDIA QUERIES FOR SCREEN DISPLAYS*/
 /*SMART PHONES*/
-@media (min-width:320px)
-and (max-width:480px) {
-    body {font-size: 16px;
+   
+@media screen and (max-width:480px) {
+    body{
+        font-size: 1rem; 
+    } 
+    h1, h2, h3, h4 {
+        font-size: 1.25rem;
     }
-
+    .flex-container {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
     
 }   
 
 /*iPADS*/
-@media (min-width:680px)
+@media screen and (min-width:481px)
 and (max-width:800px) {
-    body {font-size: 18px;
+    body{
+        font-size: 1rem; 
+    } 
+    h1, h2, h3, h4 {
+        font-size: 1.25rem;
     }
-
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-
-    .nav-item {
-        margin: 2.5rem 0;
-    }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+    .flex-container {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
     }
 }
 
-
 /*DESKTOPS AND LAPTOPS*/
-@media (min-width:960px)
+@media screen and (min-width:801px)
 and (max-width:1024px)  {
-    body {font-size: 20px;
+    body{
+        font-size: 1.5rem; 
+    } 
+    h1, h2, h3 {
+        font-size: 2rem;
     }
-    .menu-icon {
-        display: none;
-     }
+    h4{
+        font-size: 1.75rem
+    }
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
 }  
 
 /*LARGE SCREENS*/
-@media (min-width:1920px) {
-    body {font-size: 24px;
+@media screen and (min-width:1920) {
+    body{
+        font-size: 1.75rem; 
+        
+    } 
+    h1, h2, h3 {
+        font-size: 2rem;
     }
-    .menu-icon {
-        display: none;
-     }
-}
-
-
-
-@media only screen and (max-width: 768px) {
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
+    h4{
+        font-size: 1.75rem
     }
-
-    .nav-menu.active {
-        left: 0;
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
     }
-
-    .nav-item {
-        margin: 2.5rem 0;
-    }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-
 }

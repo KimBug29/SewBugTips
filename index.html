@@ -9,7 +9,7 @@
     <meta name="author" content="Kim Wolf">
     <meta name="description" content="Sew Bug Tips aims to provide sewing information and tips to beginners.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--ADD GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,8 +22,8 @@
     <!--ADDS STYLES/CSS TO SITE-->
     <link rel="stylesheet" href="styles/main.css">
     <!--ADDS JAVASCRIPT TO SITE-->
-    <script src="main.js"></script>
-     
+    <script src="app.js"></script>
+
 <body>
     <!--SITE NAVIGATION BAR-->
     <header>
@@ -31,7 +31,6 @@
             <div><a href="#home">Home</a></div>
             <div><a href="#about">About Me</a></div>
             <div><a href="#precuts">Fabric PreCuts</a></div>
-            <div><a href="#share">Share</a></div>
             <div><a href="#contact">Contact Us</a></div>
         </nav>
     </header>
@@ -39,40 +38,57 @@
     <section id="home">
         <div class="hero">
                 <img src="images/sewbugtips_hero.png"alt="Sew Bug Tips logo" title="SewBugTips logo">
+        </div>
                 <h1>Welcome to Sew Bug Tips!</h1>
                 <p> Are you looking for sewing tips? Or maybe a new hobby?
                     Do you have an interest in sewing, yet unsure of sewing terminology?
                     Whatever your interests, I am certain you have reached the right place on <b>SewBugTips</b>! 
                     A site created for crafters of all ages and skills. Sew, let's get started!
                 </p>  
-        </div>    
+           
     </section>
+
     <hr>
-    <section id="about">
+    <section id="about"> 
         <h2>About Me</h2><br>
-            <p>My name is Kim Wolf and I am learning to code HTML, CSS and JavaScript. <br>I enjoy sewing and quilt piecing. Use the carousel, built with JavaScript, to view some of my sewing project images. 
-                <div class="carousel">
-                    <div class="carousel_image"></div>
-                        <img src="images/irish_change_quilt.jpg" alt="Irish Change quilt" title="Irish Change quilt pattern"/>
-                    </div>
-                    <div class="carousel_image">
-                        <img src="images/sunflowers_scalloped_edge.JPG" alt="Sunflower quilt" title="Sunflower quilt with scalloped edges"/>
-                    </div>
-                    <div class="carousel_image">
-                        <img src="images/purse.jpg" alt="Cross Body purse" title="Cross Body Bag"/>
-                    </div>
+            <p>My name is <b>Kim Wolf</b> and I am learning to code HTML, CSS and JavaScript. <br>I enjoy sewing and quilt piecing,  
+                below are some images of my recent work. Each image includes the fabric precut used to create the sewing project.<br>
+                Scroll over the image to get a closer look!<br><br>
+                Want to learn more about fabric precut terminology? Keep scrolling the page, or use the top navigation <b>FABRIC PRECUTS.</b></p>
+                <br>
+                <br>
+                <div class="flex-container-about">            
+                        <div><img src="images/irish-change-400.jpg"alt="Irish Change quilt" title="Irish Change quilt pattern"/>
+                            <h4>Quilt Pattern: Irish Change</h4>
+                            <p>Made from layer cake and yardage</p><br>
+                        </div>
+                        <div><img src="images/two-step-400.jpg"alt="Two Step quilt" title="Two step quilt pattern"/>
+                            <h4>Quilt Pattern: Two Step</h4>
+                            <p>Made from jelly roll and yardage</p><br>
+                        </div>
+                        <div><img src="images/jelly-roll-400.jpg"alt="Jelly Roll quilt" title="Jelly Roll quilt pattern"/>
+                            <h4>Quilt Pattern: Jelly Roll</h4>
+                            <p>Made from jelly roll</p><br>
+                        </div>
+                        <div><img src="images/sunflowers_scalloped_edge-400.jpg" alt="Sunflower quilt" title="Sunflower quilt with scalloped edges"/>
+                            <h4>Quilt with scallop edges</h4>
+                            <p>Made from charm pack</p><br>
+                        </div>
+                        <div><img src="images/cross-body-bag-400.jpg" alt="Cross Body purse" title="Cross Body Bag"/>
+                            <h4>Cross body bag</h4>
+                            <p>Made from yardage</p><br>
+                        </div>                                      
                 </div>
-             
-                
-            
-            <br>For my Code Kentucky Project, I decided to combine the two talents to create an informative sewing tips site.<br>
-            When it was time to name my coding project site, I incorporated another favorite - my Beetle Bug.<br> That is how <b>SewBugTips</b> was created.
-            </p>
+            <br>
+            <br> 
+            <p>For my <b>Code Kentucky Project</b>, I decided to combine the two talents to create an informative sewing tips site.<br>
+            When it was time to name my coding project site, I incorporated another favorite - my Beetle Bug.<br> 
+            That is how <b>SewBugTips</b> was created.</p><br>
+            <p>Move the cursor over the image and watch the Bug change directions!</p><br>
             <figure>
-                <img src="images/my_bug.jpg" alt="My Volkswagon Beetle" title="My Volkswagon Beetle."/>
+                <img src="images/my-bug.jpg" alt="My Volkswagon Beetle" title="My Volkswagon Beetle."/>
                 <figcaption>My Volkswagon Beetle</figcaption>                
             </figure>
-            <img src="images/purple_notions.jpeg" alt="Sewing notions" title="Sewing notions"/>
     </section>
     <hr>
     <section id="precuts">
@@ -81,7 +97,7 @@
             They are easy to use and also a great way to sample an entire fabric collection. PreCut names can be confusing, check out some examples with their definition.
         </p>
 
-            <ul class="grid">
+            <ul>
                 <li><img src="images/honey_bun.jpg" title="Honey Buns" alt="Honey Bun image">
                     <h4>Honey Buns</h4>
                     <p>1.5" x Width of Fabric (WOF)</p>
@@ -105,54 +121,52 @@
             </ul>
     </section>
     <hr>
-    <section id="share">
-        <h2>Share your images</h2><br>
-        <p>I enjoy viewing sewing projects. Would you like to share your work? If so, kindly upload your image.</p>
-
-        <!--ALLOW SITE VISITOR TO UPLOAD FILE AND MESSAGE WITH JAVASCRIPT-->      
-        <script src="scripts/forms.js"></script>
-        <form id="Share">    
-            <div>    
-                <input id="file" type="file" name="File">
-            </div>
-                /*BEST PRACTICE...I WANT TO ______ - ANSWER THIS STATEMENT FOR THE FORM BUTTON WORDING"*/
-                <button type="submit">Share my image</button>
-        </form>
-        <br>
-    </section>
-    <hr>
+    <!--CONTACT US FORM-->
     <section id="contact">
-        <h2>Contact Us</h2><br>
-        <p>Have a question? Complete the form and we will contact you!</p>
+        <div class="container">
+            <div class="form">
+                <div class="contact-info">
+                    <h3 class="title">Let's get in touch</h3>
+                    <p class="text">
+                        Have a question? 
+                        <br>
+                        <br>
+                        Drop us a message through our contact form.
+                    </p>
+                <img class="contact-img" src="images/purple_notions_200.jpg" class="contact-image" alt="Contact us image" title="Notions">
+                </div>
+                <div class="contact-form">
+                    <span class="circle one"></span>
+                    <span class="circle two"></span>
 
-        <!--ADD FORM AND VALIDATE WITH JAVASCRIPT-->
-        <form action="results.html" method="get" autocomplete="on">
-            <div>
-                <label for="name">Name: </label>
-                <input type="text" name="Name" id="name" placeholder="Enter first and last name" maxlength="50">
+                    <form action="thanks.html" autocomplete="off">
+                        <h3 class="title">Contact us</h3>
+                        <div class="input-container">
+                            <input type="text" name="name" class="input">
+                            <span>Name</span>                            
+                        </div>
+
+                        <div class="input-container">
+                            <input type="email" name="email" class="input" required>
+                            <span>Email</span>
+                        </div>
+
+                        <div class="input-container">
+                            <input type="tel" name="phone" class="input">
+                            <span>Phone</span>
+                        </div>
+
+                        <div class="input-container textarea">
+                            <textarea name="message" class="input"></textarea>
+                            <span>Message</span>
+                        </div>
+                        <input type="submit" value="Send" class="btn"/>
+                    </form>                    
+                </div>
             </div>
-            <div>
-                <label for="date">Birthdate: </label>
-                <input type="date" name="Birthdate" id="date">
-            </div> 
-            <div>
-                <label for="email">Email: </label>
-                <input type="email" name="Email" id="email" required>
-            </div>
-            <div id="mailingList">
-                <label for="mailingList">Opt in to mailing list: </label>
-                <input type="checkbox" name="MailingList" id="mailingList" checked="check">
-            </div>
-            <div>
-                <label for="question">Question: </label>
-                <textarea id="question" name="Question"></textarea>
-            </div>
-            /*BEST PRACTICE...I WANT TO ______ - ANSWER THIS STATEMENT FOR THE FORM BUTTON WORDING"*/
-            <button type="submit">Ask a question</button>
-            <button type="reset">Reset</button>
-        </form>
-        <br>
-    </section>
+        </div>
+       </section>     
+    <br>
     
     <footer>
             <br>
@@ -162,9 +176,11 @@
                 <li><a href="https://github.com/KimBug29/SewBugTips.git" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
             </ul>
             <p>Contact us at <a href="mailto:SewBug66@yahoo.com?subject=Mail from our Website">SewBug66@yahoo.com</a> </p>
-            <p>&copy;2021 Sew Bug Tips, All Rights Reserved.</p><br>
-        </footer>
+            <p>&copy;2021 Sew Bug Tips, All Rights Reserved.</p>
+            
+            <br>
+    </footer>
+</body>
 
-    </body>
 </html>
 
