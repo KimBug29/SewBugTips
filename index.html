@@ -21,80 +21,104 @@
     <script src="https://kit.fontawesome.com/fab5d2891a.js" crossorigin="anonymous"></script>
     <!--ADDS STYLES/CSS TO SITE-->
     <link rel="stylesheet" href="styles/main.css">
-    <!--JAVASCRIPT FILE-->
-    <script src="my-javascript.js"></script>
+    <link rel="stylesheet" href=".fontawesome-free-5.13.0-web/css/all.css">    
 </head>
 <body>
     <!--SITE NAVIGATION BAR-->
     <header>
         <nav>
-            <div><a href="#home">Home</a></div>
-            <div><a href="#about">About Me</a></div>
-            <div><a href="#precuts">Fabric PreCuts</a></div>
-            <div><a href="#contact">Contact Us</a></div>
+            <div class="logo"><h1>SewBugTips</h1></div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#precuts">Fabric PreCuts</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+            </ul>
         </nav>
+        <script src="./app.js"></script>
+            
     </header>
 
     <section id="home">
-        <div class="hero">
+            <div class="hero">
                 <img src="images/sewbugtips_hero.png"alt="Sew Bug Tips logo" title="SewBugTips logo">
-        </div>
-                <h1>Welcome to Sew Bug Tips!</h1>
+            </div>
+                <h2>Welcome to Sew Bug Tips!</h2>
                  <p> Are you looking for sewing tips? Or maybe a new hobby?
                     Do you have an interest in sewing, yet unsure of sewing terminology?
-                    Whatever your interests, I am certain you have reached the right place on <b>SewBugTips</b>! 
+                    Whatever your interests, I am certain you have reached the right place on <strong>SewBugTips</strong>! 
                     A site created for crafters of all ages and skills. Sew, let's get started!
                 </p>  
-           
     </section>
 
     <hr>
     <section id="about"> 
-        <h2>About Me</h2><br>
-            <p>My name is <b>Kim Wolf</b> and I am learning to code HTML, CSS and JavaScript. <br>I enjoy sewing and quilt piecing,  
-                below are some images of my recent work. Each image includes the fabric precut used to create the sewing project.<br>
-                Scroll over the image to get a closer look!<br><br>
-                Want to learn more about fabric precut terminology? Keep scrolling the page, or use the top navigation <b>FABRIC PRECUTS.</b></p>
+        <div class="about-content">
+            <h2>About Me</h2><br>
+                <p>My name is <em>Kim Wolf</em>, and I am a marketing, product management and technology leader who is learning to code
+                HTML, CSS and JavaScript. I have 20+ years of professional experience in the transportation and 
+                distribution industry, successfully executing projects in various areas including e-Commerce, product marketing, product 
+                management and pricing. I am highly skilled at communicating and developing relationships with business-to-business customers and 
+                end-users. To learn more about my professional experiences, view my <em><a href="https://www.linkedin.com/in/kimberly-wolf-pmp%C2%AE-42816b6b/" target="_blank">   
+                LinkedIn profile</a>.</em></p>
+                <p>I consider myself a life-long learner who is always tackling new projects - from earning a Project Management
+                Professional (PMP&reg;) certification in June 2021, to enrolling in <a href="https://codekentucky.org/#:~:text=Code%20Kentucky%20is%20a%20brand%20new%20program%20for,and%20a%20strong%20interest%20in%20learning%20technology%20skills." 
+                target="_blank"><strong>Code Kentucky</strong></a> in September 2021 to learn front-end web development. </p>
+                <p>In my free time, I enjoy sewing and quilt piecing. Below are some pictures of my recent work. Each image includes 
+                the fabric precut used to create the sewing project. Would you like to know more about fabric precut 
+                terminology? Select <strong>FABRIC PRECUTS</strong> from top navigation, or continue to scroll.</p>
                 <br>
-                <br>
-                <div class="flex-container-about">            
-                        <div><img src="images/irish-change-400.jpg"alt="Irish Change quilt" title="Irish Change quilt pattern"/>
-                            <h4>Quilt Pattern: Irish Change</h4>
-                            <p>Made from layer cake and yardage</p><br>
-                        </div>
-                        <div><img src="images/two-step-400.jpg"alt="Two Step quilt" title="Two step quilt pattern"/>
-                            <h4>Quilt Pattern: Two Step</h4>
-                            <p>Made from jelly roll and yardage</p><br>
-                        </div>
-                        <div><img src="images/jelly-roll-400.jpg"alt="Jelly Roll quilt" title="Jelly Roll quilt pattern"/>
-                            <h4>Quilt Pattern: Jelly Roll</h4>
-                            <p>Made from jelly roll</p><br>
-                        </div>
-                        <div><img src="images/sunflowers_scalloped_edge-400.jpg" alt="Sunflower quilt" title="Sunflower quilt with scalloped edges"/>
-                            <h4>Quilt with scallop edges</h4>
-                            <p>Made from charm pack</p><br>
-                        </div>
-                        <div><img src="images/cross-body-bag-400.jpg" alt="Cross Body purse" title="Cross Body Bag"/>
-                            <h4>Cross body bag</h4>
-                            <p>Made from yardage</p><br>
-                        </div>                                      
+                <p><em>Hover over the image to zoom in for a closer look!</em></p>
+        </div>
+            <div class="flex-container-about">            
+                <div>
+                    <img src="images/irish-change-400.jpg"alt="Irish Change quilt" title="Irish Change quilt pattern"/>
+                    <h4>Quilt Pattern: Irish Change</h4>
+                    <p>Made from layer cake and yardage</p><br>
                 </div>
-            <br>
+                <div>
+                    <img src="images/two-step-400.jpg"alt="Two Step quilt" title="Two step quilt pattern"/>
+                    <h4>Quilt Pattern: Two Step</h4>
+                    <p>Made from jelly roll and yardage</p><br>
+                </div>
+                <div>
+                    <img src="images/jelly-roll-400.jpg"alt="Jelly Roll quilt" title="Jelly Roll quilt pattern"/>
+                    <h4>Quilt Pattern: Jelly Roll</h4>
+                    <p>Made from jelly roll</p><br>
+                </div>
+                <div>
+                    <img src="images/sunflowers_scalloped_edge-400.jpg" alt="Sunflower quilt" title="Sunflower quilt with scalloped edges"/>
+                    <h4>Quilt with scallop edges</h4>
+                    <p>Made from charm pack</p><br>
+                </div>
+                <div>
+                    <img src="images/cross-body-bag-400.jpg" alt="Cross Body purse" title="Cross Body Bag"/>
+                    <h4>Cross body bag</h4>
+                    <p>Made from yardage</p><br>
+                </div>                                      
+            </div>
             <br> 
-            <p>For my <b>Code Kentucky Project</b>, I decided to combine the two talents to create an informative sewing tips site.<br>
-            When it was time to name my coding project site, I incorporated another favorite - my Beetle Bug.<br> 
-            That is how <b>SewBugTips</b> was created.</p><br>
+        <div class="about-content">
+            <p>For my <a href="https://codekentucky.org/#:~:text=Code%20Kentucky%20is%20a%20brand%20new%20program%20for,and%20a%20strong%20interest%20in%20learning%20technology%20skills." 
+                target="_blank"><strong>Code Kentucky</strong></a> project, I combined front-end web development and my love of sewing to create an informative sewing tips site.
+            When it was time to create a name for my project site, I incorporated another favorite - my Beetle Bug. 
+            Now you know the story of how <strong>SewBugTips</strong> was created.</p>
             <p>Move the cursor over the image and watch the Bug change directions!</p><br>
             <figure>
                 <img src="images/my-bug.jpg" alt="My Volkswagon Beetle" title="My Volkswagon Beetle."/>
                 <figcaption>My Volkswagon Beetle</figcaption>                
             </figure>
+        </div>
     </section>
     <hr>
     <section id="precuts">
         <h2>Fabric PreCuts</h2><br>
-        <p>Precuts samplers are bundles of coordinating quilting fabrics, cut to standardized sizes, and sold as a single unit. <br>
-            They are easy to use and also a great way to sample an entire fabric collection. PreCut names can be confusing, check out some examples with their definition.
+        <p>Precuts samplers are bundles of coordinating quilting fabrics, cut to standardized sizes, and sold as a single unit.
+            They are easy to use and also a great way to sample an entire fabric collection. PreCut names confusing, but they do
+            sound delicious! From honey buns and jelly rolls to fat quarters <em>(there is some irony with the last name in the list)</em>, 
+            browse some images, names and with their definition.
         </p>
 
             <ul>
@@ -123,16 +147,16 @@
     <hr>
     <!--CONTACT US FORM-->
     <section id="contact">
-        <div class="container">
+        <div class="contact-container">
             <div class="form">
                 <div class="contact-info">
                     <h3 class="title">Have a question?</h3>
                     <br>
                     <br>
                     <img class="contact-img" src="images/quilted-question-mark-sm.jpg" class="contact-image" alt="Contact us image" title="Question?">
-                    <br><br>
-                    <p>Send a message via our contact form!</p>
-                    <p>Not sure you want to share your phone number? No problem, email is the only required field.</p>
+                    <br>
+                    <br>
+                    <p">Send a message via our contact form!</p>
                 </div>
                 <div class="contact-form">
                     <span class="circle one"></span>
@@ -169,14 +193,12 @@
     
     <footer>
             <br>
-            <p>Site designed by Kim Wolf</p>
+            <p><em>SewBugTips is designed, developed and managed by Kim Wolf</em></p>
             <ul>
                 <li><a href="https://www.linkedin.com/in/kimberly-wolf-pmp%C2%AE-42816b6b/" target="_blank"><i class="fab fa-linkedin fa-2x"></i> </a></li>       
                 <li><a href="https://github.com/KimBug29/SewBugTips.git" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
             </ul>
-            <p>Contact us at <a href="mailto:SewBug66@yahoo.com?subject=Mail from our Website">SewBug66@yahoo.com</a> </p>
-            <p>&copy;2021 Sew Bug Tips, All Rights Reserved.</p>
-            
+            <p><small>&copy;2021 SewBugTips, All Rights Reserved.</small></p>
             <br>
     </footer>
 </body>
