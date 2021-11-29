@@ -21,21 +21,27 @@
     <script src="https://kit.fontawesome.com/fab5d2891a.js" crossorigin="anonymous"></script>
     <!--ADDS STYLES/CSS TO SITE-->
     <link rel="stylesheet" href="styles/main.css">  
+    <!--ADDS JAVASCRIPT CODE-->
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!--SITE NAVIGATION BAR-->
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">SewBugTips</label>            
+    <nav class="navbar">
+        <div class="brand-title">SewBugTips</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">            
                 <ul>
-                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#precuts">Fabric PreCuts</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+            </div> 
+        </nav>
     </nav>             
 
 
@@ -201,6 +207,7 @@
     
     <footer>
         <div class="page-bottom">
+            <br>
             <p><em>SewBugTips is designed, developed and managed by Kim Wolf</em></p>
             <ul class="footer-icons">
                 <li><a href="https://www.linkedin.com/in/kimberly-wolf-pmp%C2%AE-42816b6b/" target="_blank"><i class="fab fa-linkedin fa-2x"></i> </a></li>       
