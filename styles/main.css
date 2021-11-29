@@ -2,68 +2,72 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
     box-sizing: border-box;
-    font-family: Arial, Tahoma, Verdana, sans-serif;
 }
 
 /*BODY OF PAGE*/
 body {
-    text-align: center;
+    font-family: Arial, Tahoma, Verdana, sans-serif;
     color:#000;
-    margin-top: 0px;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
-/*SITE NAVIGATION WITH HAMBURGER MENU*/
-header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
+
+/*RESPONSIVE NAVIGATION WITH HAMBURGER MENU*/
 nav {
-    background: #000;
+    background-color: #000;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
     color: #fff;
-    display: flex;
-    justify-content: space-between;
+    font-size: 36px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
 }
 
-nav .mainMenu {
-    display: flex;
-    list-style: none;
+nav ul {
+    float: right;
+    margin-right: 20px;
 }
 
-nav .mainMenu li a{
+nav ul li {
     display: inline-block;
-    padding: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
 }
 
-nav .mainMenu li a:hover {
-    background:#365a91;
+a.active, a:hover {
+    color: #E2E8F0;
+    background: #365a91;
+    transition: .5s;
 }
 
-nav .openMenu {
-    font-size: 1.5rem;
-    margin: 20px;
+.checkbtn {
+    font-size: 2rem;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
     display: none;
-    cursor: pointer;
 }
 
-nav .mainMenu .closeMenu {
-    font-size: 1.5rem;
+#check {
     display: none;
-    cursor: pointer;
-}
-
-nav .logo {
-    font-size: 25px;
-    margin-left: 10px;
-    cursor: pointer;
 }
 
 /*HEADER STYLING*/
@@ -103,6 +107,7 @@ hr {
 section {
     padding: 65px 20px 20px 20px;
 }
+
 section p {
     text-align: center;
     text-indent: 2rem;
@@ -115,7 +120,6 @@ section p {
 #about {
     background-color: #E2E8F0;
 }
-
 
 /*SECTION: ABOUT FLEXBOX*/
 .flex-container-about {
@@ -155,7 +159,36 @@ figcaption {
     padding-bottom: 150px;
 }
 
-/*SECTION: PRECUT UNORDERED LISTS*/
+
+/*SECTION: FABRIC PRECUTS USING FLEXBOX*/
+
+.flexbox-container-precuts {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.flexbox-item {
+    width: 300px;
+    margin: 10px;
+    border: 3px solid #365a91;
+    background-color: #fff;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.box {
+   width: 80%;
+   min-height: 80vh;
+   margin: auto;
+    
+}
+
+
+/*SECTION: PRECUT UNORDERED LISTS
 ul {
     display: flex;
     flex-wrap: wrap;
@@ -163,7 +196,7 @@ ul {
     text-align: center;
     width: 100%;
     justify-content: center;
-}
+}*/
 
 /*SECTION: UNORDERED LISTS
 ul {
@@ -330,6 +363,7 @@ textarea.input {
 .contact-info {
     padding: 2.3rem 2.2rem;
     position: relative;
+    text-align: center;
 }
 
 .contact-info h3 {
@@ -359,21 +393,22 @@ textarea.input {
 }
 
 /*FOOTER*/
-footer {
+.page-bottom {
     display: flex;
     flex-direction: column;
     background:#365a91;
     width: 100%; 
     line-height: 1.4; 
     color:#fff;
+    text-align: center;
 }
  
-footer ul li {
+.footer-icons {
     color: black;
     padding: 1rem;
 } 
 
-footer a:hover {
+.footer-icons a:hover {
     color:#fff;
     transition: 0.4s;
 }
@@ -398,9 +433,6 @@ Desktop fonts should be between 16 - 20px
 */
 
 /*REFERENCE INFO - RULES FOR FONT SIZING
-10px = 0.625rem
-12px = 0.75rem
-14px = 0.875rem
 16px = 1rem (base)
 18px = 1.125rem
 20px = 1.25rem
@@ -410,9 +442,9 @@ Desktop fonts should be between 16 - 20px
 */
 
 /*MEDIA QUERIES FOR SCREEN DISPLAYS*/
-/*SMART PHONES*/
-   
-@media screen and (max-width:480px) {
+/*SMART PHONES - MEDIUM SIZE DISPLAY*/
+
+@media (max-width:480px) {
     h1 {
         font-size: 1.25rem;
     }
@@ -421,16 +453,13 @@ Desktop fonts should be between 16 - 20px
         font-size: 1.125rem;
     }
     
-    body{
-        font-size: 1rem; 
-    }
-    
+   /*
     .flex-container {
         display: flex;
         flex-flow: column wrap;
         justify-content: space-evenly;
         align-items: baseline;
-    }
+    }*/
     
     .form {
         grid-template-columns: 1fr;
@@ -447,10 +476,11 @@ Desktop fonts should be between 16 - 20px
     .btn {
         padding: 0.45rem 1.2rem;
     }
-}   
+    
+}  
 
 /*iPADS*/
-@media screen and (max-width:800px) {
+@media (max-width:800px) {
     h1 {
         font-size: 1.25rem;
     }
@@ -459,16 +489,12 @@ Desktop fonts should be between 16 - 20px
         font-size: 1.125rem;
     }
 
-    body{
-        font-size: 1rem; 
-    } 
-
-    .flex-container {
+    /*.flex-container {
         display: flex;
         flex-flow: column wrap;
         justify-content: space-evenly;
         align-items: baseline;
-    }
+    }*/
     
     .form{
         grid-template-columns: 1fr;
@@ -478,41 +504,23 @@ Desktop fonts should be between 16 - 20px
         padding: 1.5rem;
     }
 
-    nav .mainMenu {
-        height: 100vh;
-        position: fixed;
-        top: -100%;
-        right: 0;
-        left: 0;
-        z-index: 10;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: #000;
-        transition: top 1s ease;
-        display: flex;
-    }
-
-    nav .mainMenu .closeMenu {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
-
-    nav .openMenu {
+    .checkbtn {
         display: block;
     }
-    
-    nav .mainMenu li a:hover {
-        background: none;
-        color: #365a91;
-        font-size: 1.6rem;
+
+    label.logo {
+        font-size: 2rem;
+        padding-left: 50px;
     }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
 }
 
 /*DESKTOPS AND LAPTOPS*/
-@media screen and (max-width:1024px)  {
+@media (max-width:1024px)  {
     h1 {
         font-size: 1.5rem;
     }
@@ -525,33 +533,49 @@ Desktop fonts should be between 16 - 20px
         font-size: 1.125rem
     }
 
-    body{
-        font-size: 1rem; 
-    }
-
-    .flex-container {
+    /*.flex-container {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
         align-items: baseline;
-    }
+    }*/
 
     .form{
         grid-template-columns: 1fr;
     }
 
-    nav .mainMenu {
-        height: 100vh;
+    .checkbtn {
+        display: block;
+    }
+    
+    ul {
         position: fixed;
-        top: -100%;
-        right: 0;
+        width: 100%;
+        height: 100vh;
+        top: 78px;
+        left: -100%;
+        background-color: #000;
+        text-align: center;
+        transition: all 0.5s;    
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0;
+        line-height: 41px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,a.active {
+        background-color: none;
+        color: yellow;
+    }
+
+    #check:checked~ul {
         left: 0;
-        z-index: 10;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: #000;
-        transition: top 1s ease;
-        display: flex;
     }
 }  
+

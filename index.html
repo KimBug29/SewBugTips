@@ -20,26 +20,24 @@
     <!--ADDS FONT AWESOME CODE-->
     <script src="https://kit.fontawesome.com/fab5d2891a.js" crossorigin="anonymous"></script>
     <!--ADDS STYLES/CSS TO SITE-->
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href=".fontawesome-free-5.13.0-web/css/all.css">    
+    <link rel="stylesheet" href="styles/main.css">  
 </head>
 <body>
     <!--SITE NAVIGATION BAR-->
-    <header>
-        <nav>
-            <div class="logo"><h1>SewBugTips</h1></div>
-            <div class="openMenu"><i class="fa fa-bars"></i></div>
-            <ul class="mainMenu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#precuts">Fabric PreCuts</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-                <div class="closeMenu"><i class="fa fa-times"></i></div>
-            </ul>
-        </nav>
-        <script src="./app.js"></script>
-            
-    </header>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">SewBugTips</label>            
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#precuts">Fabric PreCuts</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+    </nav>             
+
 
     <section id="home">
             <div class="hero">
@@ -116,33 +114,43 @@
     <section id="precuts">
         <h2>Fabric PreCuts</h2><br>
         <p>Precuts samplers are bundles of coordinating quilting fabrics, cut to standardized sizes, and sold as a single unit.
-            They are easy to use and also a great way to sample an entire fabric collection. PreCut names confusing, but they do
-            sound delicious! From honey buns and jelly rolls to fat quarters <em>(there is some irony with the last name in the list)</em>, 
-            browse some images, names and with their definition.
+            They are easy to use and also a great way to sample an entire fabric collection. PreCut names may not sound like fabric cuts,
+            but they do sound delicious! From honey buns and jelly rolls to layer cakes and fat quarters <em>(there is some irony
+            with the last name in the list)</em>, browse some images with names and definitions.
         </p>
 
-            <ul>
-                <li><img src="images/honey_bun.jpg" title="Honey Buns" alt="Honey Bun image">
-                    <h4>Honey Buns</h4>
-                    <p>1.5" x Width of Fabric (WOF)</p>
-                <li><img src="images/jelly_roll.jpg" title="Jelly Roll" alt="Jelly Roll image">
+        <div class="flexbox-container-precuts">            
+            <div class="flexbox-item">
+                <img src="images/honey_bun.jpg" title="Honey Buns" alt="Honey Bun image">
+                <h4>Honey Buns</h4>
+                <p>1.5" x Width of Fabric (WOF)</p>
+            </div>
+            <div class="flexbox-item">
+                <img src="images/jelly_roll.jpg" title="Jelly Roll" alt="Jelly Roll image">
                 <h4>Jelly Rolls</h4>
-                    <p>2.5" x Width of Fabric (WOF)</p>
-                </li>
-                <li><img src="images/mini_charm_pack.jpg" title="Mini Charm Packs" alt="Mini Charm Pack image">
-                    <h4>Mini Charm Packs</h4>
-                    <p>2.5" x 2.5" per piece</p>
-                    <li><img src="images/charm_pack.jpg" title="Charm Packs" alt="Charm Pack image">
-                        <h4>Charm Packs</h4>
-                        <p>5" x 5" per piece</p>
-                <li><img src="images/layer_cake_single.jpg" title="Layer Cakes" alt="Layer Cakes image">
-                    <h4>Layer Cakes</h4>
-                    <p>10" x 10" per piece</p>
-                <li><img src="images/fat_quarters.jpg" title="Fat Quarters" alt="Fat Quarters image">
-                        <h4>Fat Quarters</h4>
-                        <p>18" x 22" per piece</p>
-                                
-            </ul>
+                <p>2.5" x Width of Fabric (WOF)</p>
+            </div>
+            <div class="flexbox-item">
+                <img src="images/mini_charm_pack.jpg" title="Mini Charm Packs" alt="Mini Charm Pack image">
+                <h4>Mini Charm Packs</h4>
+                <p>2.5" x 2.5" per piece</p>
+                </div>
+            <div class="flexbox-item">
+                <img src="images/charm_pack.jpg" title="Charm Packs" alt="Charm Pack image">
+                <h4>Charm Packs</h4>
+                <p>5" x 5" per piece</p>
+            </div>
+            <div class="flexbox-item">
+                <img src="images/layer_cake_single.jpg" title="Layer Cakes" alt="Layer Cakes image">
+                <h4>Layer Cakes</h4>
+                <p>10" x 10" per piece</p>
+            </div>
+            <div class="flexbox-item">
+                <img src="images/fat_quarters.jpg" title="Fat Quarters" alt="Fat Quarters image">
+                <h4>Fat Quarters</h4>
+                <p>18" x 22" per piece</p>
+            </div>            
+            
     </section>
     <hr>
     <!--CONTACT US FORM-->
@@ -192,14 +200,15 @@
     <br>
     
     <footer>
-            <br>
+        <div class="page-bottom">
             <p><em>SewBugTips is designed, developed and managed by Kim Wolf</em></p>
-            <ul>
+            <ul class="footer-icons">
                 <li><a href="https://www.linkedin.com/in/kimberly-wolf-pmp%C2%AE-42816b6b/" target="_blank"><i class="fab fa-linkedin fa-2x"></i> </a></li>       
                 <li><a href="https://github.com/KimBug29/SewBugTips.git" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
             </ul>
             <p><small>&copy;2021 SewBugTips, All Rights Reserved.</small></p>
             <br>
+        </div>
     </footer>
 </body>
 
