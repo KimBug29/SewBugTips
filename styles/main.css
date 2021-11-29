@@ -226,9 +226,7 @@ section .precuts {
 }
 
 /*SECTION: CONTACT US - FORM*/
-
-input, 
-textarea {
+input, textarea {
     font-family: Arial, Tahoma, Verdana, sans-serif;
 }
 
@@ -413,6 +411,16 @@ textarea.input {
 .footer-icons a:hover {
     color:#fff;
     transition: 0.4s;
+}
+
+/*STYLE THANKS PAGE*/  
+.thanks-img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;    
 }
 
 
