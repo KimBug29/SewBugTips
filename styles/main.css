@@ -87,16 +87,7 @@ h1, h2, h3, h4 {
     margin-top: 2rem;
 }
 
-/*HORIZONTAL ROW LINE BREAK*/
-hr {
-    border: 0;
-    height: 1.5px;
-    width: 70%;
-    position: relative;
-    margin: 20px auto;
-    background: #000;
-    }
-  
+
 /*HERO IMAGE*/
 .hero img {
     display: flex;
@@ -165,6 +156,7 @@ figcaption {
 
 
 /*SECTION: FABRIC PRECUTS USING FLEXBOX*/
+
 
 .flexbox-container-precuts {
     display: flex;
@@ -570,6 +562,7 @@ Desktop fonts should be between 16 - 20px
         top: 0;
         width: 100%;
         position: fixed;
+        
     }
 
     .navbar-links ul {
