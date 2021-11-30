@@ -167,7 +167,6 @@ figcaption {
 .flexbox-container-precuts {
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
     justify-content: space-around;
     align-items: center;
     align-content: center;
@@ -181,6 +180,29 @@ figcaption {
     flex-grow: 1;
     justify-content: center;
 }
+
+.flexbox-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.flexbox-item h4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexbox-item span {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
 
 .box {
    width: 80%;
@@ -404,6 +426,7 @@ textarea.input {
 }
  
 .footer-icons {
+    display: flex;
     color: black;
     padding: 1rem;
 } 
