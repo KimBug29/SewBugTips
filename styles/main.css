@@ -395,13 +395,9 @@ textarea.input {
 }
 
 /*STYLE THANKS PAGE*/  
-.thanks-img {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    max-width: 100%;
-    height: auto;    
+.thanks-img img{
+   display: flex;
+   flex: center;
 }
 
 

@@ -37,7 +37,6 @@ The site is built using HTML5, CSS and JavaScript.
 
 Contact information regarding this site: 
   Developer: Kim Wolf
-  Voice: 859-802-8077 
   Email: SewBug66@yahoo.com
 
 Copyright 2021 SewBugTips. All rights reserved.
