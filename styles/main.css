@@ -395,9 +395,12 @@ textarea.input {
 }
 
 /*STYLE THANKS PAGE*/  
-.thanks-img img{
-   display: flex;
-   flex: center;
+.flexbox-container-thanks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
 
 
