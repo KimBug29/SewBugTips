@@ -15,7 +15,7 @@ body {
     font-size: 1rem;
 }
 
-/*RESPONSIVE NAVIGATION WITH JAVASCRIPT*/
+/*RESPONSIVE NAVIGATION*/
 
 .navbar {
     display: flex;
@@ -23,8 +23,10 @@ body {
     align-items: center;
     background-color: #000;
     color: #fff;
-    position: fixed;
-    width: 100%;
+    position: fixed; 
+    width: 100%;  
+    top:0;
+    overflow: hidden;
 }
 
 .brand-title {
@@ -50,10 +52,12 @@ body {
     text-transform: uppercase;
 }
 
+/*CHANGE BACKGROUND COLOR ON MOUSE-OVER*/
 .navbar-links li:hover {
     background-color: #365a91;
 }
 
+/*HAMBURGER MENU BUTTON-RESPONSIVE NAVIGATION WITH JAVASCRIPT*/
 .toggle-button {
     position: absolute;
     top: .75rem;
@@ -86,7 +90,7 @@ h1, h2, h3, h4 {
 }
 
 /*SECTION CONTAINERS TO POSITION SITE WITHIN LARGE MARGINS*/
-.home-section-container, .about-section-container, .precut-section-container {
+.home-section-container, .about-section-container, .precut-section-container, .contact-us-section-container {
     width: 80%;
     margin: auto;
 }
@@ -207,6 +211,9 @@ figcaption {
     background-color: #E2E8F0;
 }
 
+.contact-us-section-container {
+    position: inherit;
+}
 /*SECTION: CONTACT US - FORM*/
 input, textarea {
     font-family: Arial, Tahoma, Verdana, sans-serif;
@@ -398,7 +405,8 @@ textarea.input {
     text-align: center;
 }
 
-/*STYLE THANKS PAGE*/  
+
+/*STYLE THANKS PAGE*/
 .flexbox-container-thanks {
     display: flex;
     flex-wrap: wrap;
@@ -407,6 +415,11 @@ textarea.input {
     align-content: center;
 }
 
+.flexbox-container-thanks img {
+    display: block;
+    object-position: center;
+    box-shadow: 0 10px 15px 0 rgb(43, 46, 34); 
+}
 
 /*SCREEN SIZES PER CODE2CARE.ORG*/
 /*
