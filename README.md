@@ -27,10 +27,11 @@ The site is built using HTML5, CSS and JavaScript.
   4) CSS features - Flexbox to organize content -and- Web Accessibility Compliance Report (in PDF format)
   5) JavaScript feature - Used in responsive navigation menu
   6) JavaScript feature - Contact Us form, with at least one (1) validation field (both name and email are required fields) - with a Thanks page which allows user to view their name and email address submission
-  7) Multiple additional items from any list
+  7) Multiple additional items from any of the project list requirements:
     a)Contact us form resizes from horizontal to vertical based on media queries
     b)Images within the 'About' section allow site visitors to "zoom"
     c)Site contains different sections with background color changes in sections
+    d)Navigation background changes on mouse-over
 
   
 
