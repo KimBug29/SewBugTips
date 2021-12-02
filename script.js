@@ -14,11 +14,11 @@ var contactName = document.getElementById("contactName").value;
 var contactEmail = document.getElementById("contactEmail").value;
 
 if(contactName == null || contactName == ''){
-alert("Name must be filled out");
+alert("Please provide your name");
 return false;
 }
 if(contactEmail == null || contactEmail == ''){
-alert("Name must be filled out");
+alert("Please provide your Email");
 return false;
 }
 
