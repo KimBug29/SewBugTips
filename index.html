@@ -27,6 +27,7 @@
 <body>
     <!--SITE NAVIGATION BAR-->
     <nav class="navbar">
+        
         <div class="brand-title">SewBugTips</div>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
@@ -46,6 +47,7 @@
 
 
     <section id="home">
+        <div class="home-section-container">
             <div class="hero">
                 <img src="images/sewbugtips_hero.png"alt="Sew Bug Tips logo" title="SewBugTips logo">
             </div>
@@ -55,9 +57,11 @@
                     Whatever your interests, I am certain you have reached the right place on <strong>SewBugTips</strong>! 
                     A site created for crafters of all ages and skills. Sew, let's get started!
                 </p>  
+        </div>
     </section>
 
     <section id="about"> 
+        <div class="about-section-container">
         <div class="about-content">
             <h2>About Me</h2><br>
                 <p>My name is <em>Kim Wolf</em>, and I am a marketing, product management and technology leader who is learning to code
@@ -114,16 +118,18 @@
                 <figcaption>My Volkswagon Beetle</figcaption>                
             </figure>
         </div>
+        </div>
     </section>
   
     <section id="precuts">
+        <div class="precut-section-container">
         <h2>Fabric PreCuts</h2><br>
         <p>Precuts samplers are bundles of coordinating quilting fabrics, cut to standardized sizes, and sold as a single unit.
             They are easy to use and also a great way to sample an entire fabric collection. PreCut names may not sound like fabric cuts,
             but they do sound delicious! From honey buns and jelly rolls to layer cakes and fat quarters <em>(there is some irony
             with the last name in the list)</em>, browse some images with names and definitions.
         </p>
-
+        
         <div class="flexbox-container-precuts">            
             <div class="flexbox-item">
                 <img src="images/honey_bun.jpg" title="Honey Buns" alt="Honey Bun image">
@@ -154,7 +160,9 @@
                 <img src="images/fat_quarters.jpg" title="Fat Quarters" alt="Fat Quarters image">
                 <h4>Fat Quarters</h4>
                 <span>18" x 22" per piece</span>
-            </div>             
+            </div>   
+        
+          </div>     
     </section>
     
     <!--CONTACT US FORM-->
@@ -170,7 +178,7 @@
                     <br>
                     <p">Send a message via our contact form!</p>
                     <br>
-                    <p"><small><i>(This form includes JavaScript to display name and email only. Not currently capturing your information for contact.)</i></small></p>
+                    <p"><small><i>(Note: Form includes JavaScript code to display name and email only. Not currently collecting info for follow-up.)</i></small></p>
                 </div>
                 <div class="contact-form">
                     <span class="circle one"></span>
@@ -181,12 +189,12 @@
                             <h3 class="title">Contact us</h3>
                             <div class="input-container">
                                 <input type="text" name="name" class="input" id="contactName" required>
-                                <span>Name</span>                            
+                                <span>Name*</span>                            
                             </div>
                     
                             <div class="input-container">
                                 <input type="email" name="email" class="input" id="contactEmail" required>
-                                <span>Email</span>
+                                <span>Email*</span>
                             </div>
                     
                             <div class="input-container">
@@ -199,6 +207,9 @@
                                 <span>Message</span>
                             </div>
                             <input type="submit" value="Send" class="btn"/>
+                            <br>
+                            <br>
+                            <span><small>* Required field</small></span>
                         </form>
                     </div>
                 </div>
