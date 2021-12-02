@@ -34,6 +34,5 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 var urlContactName = urlParams.get('name');
 var urlContactEmail = urlParams.get('email');
-document.getElementById("thanksText").innerHTML = "Thank you <strong>"+urlContactName+"</strong> 
-for your message. We will get back to you at "+urlContactEmail;
+document.getElementById("thanksText").innerHTML = "Thank you <strong>"+urlContactName+"</strong> for your message. We will get back to you at "+urlContactEmail;
 }
