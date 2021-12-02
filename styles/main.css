@@ -72,7 +72,6 @@ body {
     border-radius: 10px;
 }
 
-
 /*HEADER STYLING*/
 h1, h2, h3, h4 {
     color:#365a91;
@@ -567,4 +566,3 @@ Desktop fonts should be between 16 - 20px
         grid-template-columns: 1fr;
     }
 }  
-
