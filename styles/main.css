@@ -97,6 +97,13 @@ h1, h2, h3, h4 {
     margin: auto;
 }
 
+/*SECTION: HOME*/
+.home-section-container span {
+    display:block;
+    text-align: center;
+    margin-bottom: 3rem; 
+}
+
 /*HERO IMAGE*/
 .hero img {
     display: flex;
@@ -125,22 +132,13 @@ section p {
     background-color: #E2E8F0;
 }
 
-/*SECTION: PROJECTS*/
-.flex-container-projects {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: baseline;   
-}
+/*SECTION: ABOUT*/
 
-.flex-container-projects img {
-    box-shadow: 3px 0 3px 3px  rgb(65, 68, 55);    
+.about-section-container span {
+    display:block;
+    text-align: justify;
+    margin-bottom: 35px; 
 }
-.flex-container-projects img:hover {
-    transform: scale(1.25); 
-}
-
-/*SECTION: ABOUT FIGURE*/
 
 figure img {
     display: flex;
@@ -161,53 +159,22 @@ figcaption {
     padding-bottom: 150px;
 }
 
-/*SECTION: FABRIC PRECUTS USING FLEXBOX*/
-
-.flexbox-container-precuts {
+/*SECTION: PROJECTS*/
+.flex-container-projects {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    padding: 10px;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: baseline;   
 }
 
-.flexbox-item {
-    width: 300px;
-    margin: 10px;
-    border: 3px solid #365a91;
-    background-color: #fff;
-    flex-grow: 1;
-    justify-content: center;
+.flex-container-projects img {
+    box-shadow: 3px 0 3px 3px  rgb(65, 68, 55);    
+}
+.flex-container-projects img:hover {
+    transform: scale(1.25); 
 }
 
-.flexbox-item img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-}
-
-.flexbox-item h4 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.flexbox-item span {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
-    text-align: center;
-}
-
-.box {
-   width: 80%;
-   min-height: 80vh;
-   margin: auto;
-}
-
+/*SECTION: FABRIC PRECUTS*/
 /*FABRIC TABLE CONTAINER*/
 .fabric-table-container {
     display: flex;
@@ -219,7 +186,6 @@ figcaption {
     align-content: center;
     padding: 10px;
 }
-
 
 /*FABRIC TABLE*/
 .fabric-table-container refTbl {
@@ -278,6 +244,54 @@ tfoot tr:last-child td:last-child {
 
 .fabric-table-container img {
 box-shadow: 0 10px 15px 0 rgb(43, 46, 34); 
+}
+
+
+/*SECTION: PRECUT IMAGES USING FLEXBOX*/
+
+.flexbox-container-precuts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.flexbox-item {
+    width: 300px;
+    margin: 10px;
+    border: 3px solid #365a91;
+    background-color: #fff;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.flexbox-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.flexbox-item h4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexbox-item span {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.box {
+   width: 80%;
+   min-height: 80vh;
+   margin: auto;
 }
 
 /*SECTION: CONTACT US*/
@@ -650,11 +664,4 @@ Desktop fonts should be between 16 - 20px
     .form{
         grid-template-columns: 1fr;
     }
-
-    /*SECTION CONTAINERS TO POSITION SITE WITHIN LARGE MARGINS*/
-.home-section-container, .about-section-container, .precut-section-container, .contact-us-section-container {
-    width: 80%;
-    margin: auto;
-}
-
 }  

@@ -20,11 +20,11 @@ Hi 👋, I'm Kim Wolf - A novice coder learning how to become a frontend develop
 
 GENERAL USAGE NOTES
 The site is built using HTML5, CSS and JavaScript. 
-  Version 1.0 is a responsive design site which includes the following project requirements:
-  1) A minimum of two media queries, including sizes for mobile, tablet and desktop
+  Version 1.0 is a responsive design site with the following project requirements:
+  1) Three media queries, including sizes for mobile, tablet and laptop/desktop
   2) Project is specifically named and uploaded in GitHub
   3) A README file with at least one paragraph explaining the project and listing of project requirements included
-  4) CSS features - Flexbox to organize content -and- Web Accessibility Compliance Report (in PDF format)
+  4) CSS features - Flexbox to organize content in  -and- Web Accessibility Compliance Report (in PDF format)
   5) JavaScript feature - Used in responsive navigation menu
   6) JavaScript feature - Contact Us form, with at least one (1) validation field (both name and email are required fields) - with a Thanks page which allows user to view their name and email address submission
   7) Multiple additional items from any of the project list requirements:
