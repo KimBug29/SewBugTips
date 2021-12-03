@@ -89,8 +89,10 @@ h1, h2, h3, h4 {
     margin-top: 2rem;
 }
 
+
 /*SECTION CONTAINERS TO POSITION SITE WITHIN LARGE MARGINS*/
-.home-section-container, .about-section-container, .precut-section-container, .contact-us-section-container {
+.home-section-container, .about-section-container, .projects-section-container, 
+.precut-section-container, .pre_images-section-container, .contact-us-section-container {
     width: 80%;
     margin: auto;
 }
@@ -118,23 +120,23 @@ section p {
     margin-bottom: 35px; 
 }
 
-/*SECTION: ABOUT - BACKGROUND COLOR CHANGE & CONTENT SYLING*/
-#about {
+/*SECTION: BACKGROUND COLOR CHANGE & CONTENT SYLING*/
+#about, #precuts, #contact {
     background-color: #E2E8F0;
 }
 
-/*SECTION: ABOUT FLEXBOX*/
-.flex-container-about {
+/*SECTION: PROJECTS*/
+.flex-container-projects {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: baseline;   
 }
 
-.flex-container-about img {
+.flex-container-projects img {
     box-shadow: 3px 0 3px 3px  rgb(65, 68, 55);    
 }
-.flex-container-about img:hover {
+.flex-container-projects img:hover {
     transform: scale(1.25); 
 }
 
@@ -144,7 +146,6 @@ figure img {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
     max-width: 100%;
     height: auto;
     flex-direction: row;
@@ -168,6 +169,7 @@ figcaption {
     justify-content: space-around;
     align-items: center;
     align-content: center;
+    padding: 10px;
 }
 
 .flexbox-item {
@@ -206,10 +208,79 @@ figcaption {
    margin: auto;
 }
 
-/*SECTION: CONTACT US - BACKGROUND COLOR CHANGE*/
-#contact {
-    background-color: #E2E8F0;
+/*FABRIC TABLE CONTAINER*/
+.fabric-table-container {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
 }
+
+
+/*FABRIC TABLE*/
+.fabric-table-container refTbl {
+    box-shadow: 0 10px 15px 0 rgb(43, 46, 34); 
+}
+.table {
+    border-collapse: collapse;
+}
+
+th, 
+td {
+    border-bottom: 1px solid #cecfd5;
+    padding: 10px 15px;
+    vertical-align: middle;
+}
+
+tfoot tr:last-child td {
+    border-bottom: 0;
+}
+
+thead {
+    background: #365a91;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+th:first-child {
+    border-top-left-radius: 5px;
+    text-align: left;
+}
+
+th:last-child {
+    border-top-right-radius: 5px;
+}
+
+tbody tr:nth-child(even) {
+    background: #f0f0f2;
+}
+
+td {
+    border-bottom: 1px solid #cecfd5;
+    border-right: 1px solid #cecfd5;
+}
+
+td:first-child {
+    border-left: 1px solid #cecfd5;
+}
+
+tfoot tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+tfoot tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+.fabric-table-container img {
+box-shadow: 0 10px 15px 0 rgb(43, 46, 34); 
+}
+
+/*SECTION: CONTACT US*/
 
 .contact-us-section-container {
     position: inherit;
@@ -559,6 +630,7 @@ Desktop fonts should be between 16 - 20px
     .navbar-links.active {
         display: flex;
     }
+
 }
 
 /*DESKTOPS AND LAPTOPS*/
@@ -578,4 +650,11 @@ Desktop fonts should be between 16 - 20px
     .form{
         grid-template-columns: 1fr;
     }
+
+    /*SECTION CONTAINERS TO POSITION SITE WITHIN LARGE MARGINS*/
+.home-section-container, .about-section-container, .precut-section-container, .contact-us-section-container {
+    width: 80%;
+    margin: auto;
+}
+
 }  
