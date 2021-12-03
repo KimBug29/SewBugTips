@@ -492,18 +492,27 @@ textarea.input {
 
 
 /*STYLE THANKS PAGE*/
-.flexbox-container-thanks {
+.thanks text {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
 }
 
-.flexbox-container-thanks img {
-    display: block;
-    object-position: center;
+.thanks-800 img  {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    flex-direction: row;
     box-shadow: 0 10px 15px 0 rgb(43, 46, 34); 
+}
+
+.thanks-480 img  {
+    display: none;
 }
 
 /*SCREEN SIZES PER CODE2CARE.ORG*/
@@ -588,8 +597,18 @@ Desktop fonts should be between 16 - 20px
         padding: .5rem 1rem;
     }
 
-    navbar-links.active {
+    .navbar-links.active {
         display: flex;
+    }
+
+    .thanks-480 img  {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    flex-direction: row;
+    box-shadow: 0 10px 15px 0 rgb(43, 46, 34); 
     }
 }  
 
