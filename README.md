@@ -32,11 +32,11 @@ Version 1.0 is a responsive design site with the following project requirements:
   6) JavaScript feature - Used in responsive navigation hamburger menu - SITE NAVIGATION
   7) JavaScript feature - Contact Us form, with two validation fields - both name and email are required fields. Also, a Thanks html page which allows user to view their name and email address submission from the CONTACT US FORM
   8) Multiple additional items from any of the project list requirements:
-    a - Contact us form resizes from horizontal to vertical based
-    b - Images within the 'About' section allow site visitors to "zoom"
-    c - Site contains different sections with background color changes in sections
-    d - Navigation background changes on mouse-over
-    e - Web Accessibility Compliance Report included in GitHub in PDF format
+    a) Contact us form resizes from horizontal to vertical based
+    b) Images within the 'About' section allow site visitors to "zoom"
+    c) Site contains different sections with background color changes in sections
+    d) Navigation background changes on mouse-over
+    e) Web Accessibility Compliance Report included in GitHub in PDF format
 
 ---------------------------------------------------------------------------------------
 
