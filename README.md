@@ -19,16 +19,19 @@ Hi 👋, I'm Kim Wolf - A novice coder learning how to become a frontend develop
 👨‍💻 My current project is available at https://github.com/KimBug29/SewBugTips.git
 
 GENERAL USAGE NOTES
-The site is built using HTML5, CSS and JavaScript. 
-  Version 1.0 is a responsive design site with the following project requirements:
-  1 Three media queries, including sizes for mobile, tablet and laptop/desktop
-  2 Project is specifically named and uploaded in GitHub
-  3 A README file with at least one paragraph explaining the project and listing of project requirements included
-  4 CSS feature - Flexbox to organize content - PRECUT IMAGES section
-  5 CSS feature - Use of ".nth-child" to change background color for every other row in table - FABRIC PRECUTS section
-  6 JavaScript feature - Used in responsive navigation hamburger menu - SITE NAVIGATION
-  7 JavaScript feature - Contact Us form, with two validation fields - both name and email are required fields. Also, a Thanks html page which allows user to view their name and email address submission from the CONTACT US FORM
-  8 Multiple additional items from any of the project list requirements:
+The website is built using HTML5, CSS and JavaScript. 
+
+---------------------------------------------------------------------------------------
+
+Version 1.0 is a responsive design site with the following project requirements:
+  1) Three media queries, including sizes for mobile, tablet and laptop/desktop
+  2) Project is specifically named and uploaded in GitHub
+  3) A README file with at least one paragraph explaining the project and listing of project requirements included
+  4) CSS feature - Flexbox to organize content - PRECUT IMAGES section
+  5) CSS feature - Use of ".nth-child" to change background color for every other row in table - FABRIC PRECUTS section
+  6) JavaScript feature - Used in responsive navigation hamburger menu - SITE NAVIGATION
+  7) JavaScript feature - Contact Us form, with two validation fields - both name and email are required fields. Also, a Thanks html page which allows user to view their name and email address submission from the CONTACT US FORM
+  8) Multiple additional items from any of the project list requirements:
     a - Contact us form resizes from horizontal to vertical based
     b - Images within the 'About' section allow site visitors to "zoom"
     c - Site contains different sections with background color changes in sections
