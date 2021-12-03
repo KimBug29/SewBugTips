@@ -24,7 +24,7 @@ The website is built using HTML5, CSS and JavaScript.
 ---------------------------------------------------------------------------------------
 
 Version 1.0 is a responsive design site with the following project requirements:
-  1) Three media queries, including sizes for mobile, tablet and laptop/desktop
+  1) Three media queries, including sizes for mobile, tablet and laptop/desktop - THANKS page displays a different sized image on mobile - also several sections adjust images based on screen display sizes
   2) Project is specifically named and uploaded in GitHub
   3) A README file with at least one paragraph explaining the project and listing of project requirements included
   4) CSS feature - Flexbox to organize content - PRECUT IMAGES section
@@ -37,6 +37,7 @@ Version 1.0 is a responsive design site with the following project requirements:
     c) Site contains different sections with background color changes in sections
     d) Navigation background changes on mouse-over
     e) Web Accessibility Compliance Report included in GitHub in PDF format
+    f) Includes favicon on both pages
 
 ---------------------------------------------------------------------------------------
 
