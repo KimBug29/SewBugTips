@@ -672,7 +672,7 @@ Desktop fonts should be between 16 - 20px
         align-items: flex-start;
         top: 0;
         width: 100%;
-        position: fixed;
+        position: relative;
     }
 
     .navbar-links ul {
