@@ -198,6 +198,12 @@ figcaption {
     margin-bottom: 2rem; 
 }
 
+.precut-section-container img {
+    margin-bottom: 2rem; 
+    margin-top: 2rem; 
+    box-shadow: 0 10px 15px 0 rgb(43, 46, 34); 
+}
+
 /*FABRIC TABLE*/
 .fabric-table-container refTbl {
     box-shadow: 0 10px 15px 0 rgb(43, 46, 34); 
@@ -251,10 +257,6 @@ tfoot tr:last-child td:first-child {
 
 tfoot tr:last-child td:last-child {
     border-bottom-right-radius: 5px;
-}
-
-.fabric-table-container img {
-box-shadow: 0 10px 15px 0 rgb(43, 46, 34); 
 }
 
 /*SECTION: PRECUT IMAGES USING FLEXBOX*/
