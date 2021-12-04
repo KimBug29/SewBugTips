@@ -3,7 +3,7 @@ Looking for a new hobby? Do you have an interest in sewing? Unsure of sewing ter
 
 While learning how to code HTML, CSS and JavaScript I was tasked with creating a project to demonstrate my coding skills. I choose to create a site focused on my hobby - sewing! This site is intended to help anyone interested in sewing, but may feel a little intimated by the jargon. In version 1.0, the site focus is on fabric precuts.
 
-Sew Bug Tips Version 1.0 12/3/2021
+Sew Bug Tips Version 1.0 12/4/2021
 
 
 Hi 👋, I'm Kim Wolf - A novice coder learning how to become a frontend developer
@@ -32,12 +32,14 @@ Version 1.0 is a responsive design site with the following project requirements:
   6) JavaScript feature - Used in responsive navigation hamburger menu - SITE NAVIGATION
   7) JavaScript feature - Contact Us form, with two validation fields - both name and email are required fields. Also, a Thanks html page which allows user to view their name and email address submission from the CONTACT US FORM
   8) Multiple additional items from any of the project list requirements:
-    a) Contact us form resizes from horizontal to vertical based
+    a) Contact us form resizes from horizontal to vertical based on screen size
     b) Images within the 'About' section allow site visitors to "zoom"
     c) Site contains different sections with background color changes in sections
     d) Navigation background changes on mouse-over
     e) Web Accessibility Compliance Report included in GitHub in PDF format
     f) Includes favicon on both pages
+    g) Hyperlinks to external pages, LinkedIn, Code Kentucky and GitHub
+    
 
 ---------------------------------------------------------------------------------------
 
